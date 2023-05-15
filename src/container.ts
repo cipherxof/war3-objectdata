@@ -126,13 +126,16 @@ function loadObject<T extends IDs, E>(
     throw Error(`Failed to load an object: ${oldId}`);
   }
 
-  const mapObject = Object.assign({}, { ...gameObject, oldId, newId })
+  const mapObject = Object.assign({}, { ...gameObject, oldId, newId });
   
-
   objectLoader(mapObject, modifications, props, specificProps);
 
   if (objects.map[objectId]) {
-    objects.map[objectId] = { ... mapObject };
+    for (const [key, value] of Object.entries(mapObject)) {
+      if ((objects.game[oldId] as any)[key] !== value) {
+        (objects.map[objectId] as any)[key] = value;
+      }
+    }
   } else {
     objects.map[objectId] = mapObject;
   }
