@@ -60,7 +60,7 @@ function generateTSInterface(name: string, props: Prop[]): string {
   const outBaseProps = props
     .map(
       (prop) =>
-        `{ id: <const>'${prop.id}', name: <const>'${prop.name}', type: <const>'${prop.type}' }`
+        `{ id: <const>'${prop.id}', name: <const>'${prop.name}', type: <const>'${prop.type}', netsafe: <const>'${<string>prop.row.string("netsafe") === "1"}' }`
     )
     .join(", ");
 
@@ -80,7 +80,7 @@ function generateTSAbilityInterfaces(
   const outBaseProps = baseProps
     .map(
       (prop) =>
-        `{ id: <const>'${prop.id}', name: <const>'${prop.name}', type: <const>'${prop.type}' }`
+        `{ id: <const>'${prop.id}', name: <const>'${prop.name}', type: <const>'${prop.type}', netsafe: <const>'${<string>prop.row.string("netsafe") === "1"}' }`
     )
     .join(", ");
   const outProps: Record<string, string> = {};
@@ -102,7 +102,7 @@ function generateTSAbilityInterfaces(
       outProps[id] = abilityProps
         .map(
           (prop) =>
-            `{ id: <const>'${prop.id}', name: <const>'${prop.name}', type: <const>'${prop.type}' }`
+            `{ id: <const>'${prop.id}', name: <const>'${prop.name}', type: <const>'${prop.type}', netsafe: <const>'${<string>prop.row.string("netsafe") === "1"}' }`
         )
         .join(", ");
     } else {
@@ -358,6 +358,7 @@ export async function objectDataGenerator({
   const itemProps = unitAndItemProps.filter(
     (prop) => <string>prop.row.string("useitem") === "1"
   );
+
   const destructableProps = generateProps(destructableMeta, weStrings);
   const doodadProps = generateProps(doodadMeta, weStrings);
   const abilityProps = generateProps(abilityMeta, weStrings);

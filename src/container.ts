@@ -17,6 +17,7 @@ interface Prop {
   id: string;
   name: string;
   type: string;
+  netsafe: string;
 }
 
 function getProp(id: string, props: Prop[]): Prop | undefined {
@@ -64,12 +65,18 @@ export function objectSaver<T extends IDs>(
   gameObject: T,
   object: T,
   baseProps: Prop[],
+  skin: boolean,
   specificProps?: { [key: string]: Prop[] }
 ): Modification[] {
   const modifications = [];
 
   for (const prop of baseProps) {
     if ((<any>gameObject)[prop.name] !== (<any>object)[prop.name]) {
+      if (skin && prop.netsafe !== "true") {
+        continue;
+      } else if (!skin && prop.netsafe === "true") {
+        continue;
+      }
       modifications.push(
         tsToWar3(prop.id, prop.type, (<any>object)[prop.name])
       );
@@ -82,6 +89,11 @@ export function objectSaver<T extends IDs>(
     if (props) {
       for (const prop of props) {
         if ((<any>gameObject)[prop.name] !== (<any>object)[prop.name]) {
+          if (skin && prop.netsafe !== "true") {
+            continue;
+          } else if (!skin && prop.netsafe === "true") {
+            continue;
+          }
           modifications.push(
             tsToWar3(prop.id, prop.type, (<any>object)[prop.name])
           );
@@ -102,7 +114,6 @@ function loadObject<T extends IDs, E>(
   specificProps?: { [key: string]: Prop[] }
 ) {
   let objectId;
-
   if (newId === "\0\0\0\0") {
     objectId = oldId;
   } else {
@@ -115,13 +126,16 @@ function loadObject<T extends IDs, E>(
     throw Error(`Failed to load an object: ${oldId}`);
   }
 
-  const mapObject = Object.seal(
-    Object.assign({}, { ...gameObject, oldId, newId })
-  );
+  const mapObject = Object.assign({}, { ...gameObject, oldId, newId })
+  
 
   objectLoader(mapObject, modifications, props, specificProps);
 
-  objects.map[objectId] = mapObject;
+  if (objects.map[objectId]) {
+    objects.map[objectId] = { ... mapObject };
+  } else {
+    objects.map[objectId] = mapObject;
+  }
 }
 
 export function load<T extends IDs, E>(
@@ -143,6 +157,7 @@ export function load<T extends IDs, E>(
 export function save<T extends IDs, E>(
   objects: Objects<T>,
   props: Prop[],
+  skin: boolean,
   specificProps?: { [key: string]: Prop[] }
 ): { original: ModifiedObject[]; custom: ModifiedObject[] } {
   const original: ModifiedObject[] = [];
@@ -150,14 +165,14 @@ export function save<T extends IDs, E>(
 
   for (const object of Object.values(objects.map)) {
     const gameObject = objects.game[object.oldId];
-
+    
     if (!gameObject) {
       throw Error(
         `Tried to save the modifications of an object with an invalid oldId: ${object.oldId} (newId=${object.newId})`
       );
     }
 
-    const modifications = objectSaver(gameObject, object, props, specificProps);
+    const modifications = objectSaver(gameObject, object, props, skin, specificProps);
 
     if (modifications.length) {
       const modifiedObject = new ModifiedObject();
@@ -230,7 +245,7 @@ export abstract class Container<T extends IDs> {
 
       // Is this object from the map?
       baseObject = this.map[baseId];
-
+      
       // Is this object from the game?
       if (!baseObject) {
         baseObject = this.game[baseId];
