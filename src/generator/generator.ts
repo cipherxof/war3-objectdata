@@ -210,6 +210,13 @@ function generateObjects(
           }
 
           try {
+            if (value && value.includes(",") && prop.field.toLowerCase().includes("buttonpos")) {
+              const axis = prop.name.slice(-1).toLowerCase();
+              const values = value.split(',');
+              if (values.length >= 2) {
+                value = axis === "x" ? values[0] : values[1];
+              }
+            }
             object[prop.name] = war3ToTS(prop.type, value);
           } catch (e) {
             console.log(

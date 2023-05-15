@@ -121,11 +121,28 @@ export function tsToWar3(
     variableType = 3;
     value = tsValue;
   } else if (typeof tsValue === "number") {
-    if (war3Type === "int") {
+    if (
+      war3Type === "int" ||
+      war3Type === "bool" ||
+      war3Type.endsWith("Flags") ||
+      war3Type === "attackBits" ||
+      war3Type === "channelType" ||
+      war3Type === "deathType" ||
+      war3Type === "defenseTypeInt" ||
+      war3Type === "detectionType" ||
+      war3Type === "spellDetail" ||
+      war3Type === "teamColor" ||
+      war3Type === "techAvail"
+    ) {
       variableType = 0;
       value = tsValue | 0;
-    } else {
+    }
+    else if (war3Type === "real" || war3Type === "unreal") {
       variableType = war3Type === "real" ? 1 : 2;
+      value = tsValue;
+    }
+    else {
+      variableType = 2;
       value = tsValue;
     }
   } else {
