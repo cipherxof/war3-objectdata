@@ -125,7 +125,7 @@ export function tsToWar3(
       variableType = 0;
       value = tsValue | 0;
     } else {
-      variableType = 2;
+      variableType = war3Type === "real" ? 1 : 2;
       value = tsValue;
     }
   } else {
