@@ -33,12 +33,18 @@ function generateProps(metaData: MappedData, weStrings: MappedDataRow): Prop[] {
     const tsType = war3TypeToTS(type);
     const displayName = <string>row.string("displayname");
     const profile = <string>row.string("slk") === "Profile"; // Used for strings.
-    const specific = row.string("usespecific") || row.string("notspecific"); // Used for abilities.
+    // TODO: notspecific is a blacklist
+    const specific = row.string("usespecific")/* || row.string("notspecific")*/; // Used for abilities.
     let name = camelCase(<string>weStrings.string(displayName.toLowerCase()));
 
     // Wind Walk has the same named Backstab Damage fields - one set for the number values, one set for whether they are enabled.
     if (id === "Owk4") {
       name += "Enabled";
+    }
+
+    // Lighting Shield (Item) inherits Damage Per Second ('Idps') from Lightning Shield, and also from Lsh1.
+    if (id === "Lsh1") {
+      name += "Second";
     }
 
     // Upgrade fields share the same name.
@@ -87,8 +93,9 @@ function generateTSAbilityInterfaces(
 
   for (const object of Object.values(objects)) {
     const id = <string>object["oldId"];
+    const lookupId = <string>(object['lookupId'] !== undefined ? object['lookupId']: object["oldId"]);
     const abilityProps = props.filter(
-      (prop) => prop.specific && prop.specific.includes(id)
+      (prop) => prop.specific && (prop.specific.includes(lookupId) || prop.specific.includes(id))
     );
     let objectName = getOEObjectName(object);
 
@@ -184,9 +191,14 @@ function generateObjects(
 
   for (let [id, row] of Object.entries(data.map)) {
     const object: OEObject = {};
-
+    const alias = row.string('alias');
+    const parentId =  row.string('code')
+    let lookupId = alias !== undefined && parentId !== undefined && alias !== parentId ? parentId : id;
     id = handleWrongCapitalization(id);
-
+    lookupId = handleWrongCapitalization(lookupId);
+    if(lookupId !== id) {
+      object['lookupId'] = lookupId
+    }
     for (const prop of props) {
       if (!prop.specific || prop.specific.includes(id)) {
         let value: string | undefined;
@@ -359,7 +371,7 @@ export async function objectDataGenerator({
   const unitProps = unitAndItemProps.filter(
     (prop) =>
       <string>prop.row.string("useunit") === "1" ||
-      <string>prop.row.string("usehero") === "1" || 
+      <string>prop.row.string("usehero") === "1" ||
       <string>prop.row.string("usebuilding") === "1"
   );
   const itemProps = unitAndItemProps.filter(
