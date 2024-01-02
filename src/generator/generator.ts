@@ -113,7 +113,7 @@ function generateTSAbilityInterfaces(
 
   for (const object of Object.values(objects)) {
     const id = <string>object["oldId"];
-    const lookupId = <string>(object['lookupId'] !== undefined ? object['lookupId'] : object["oldId"]);
+    const lookupId = <string>(object['lookupId'] !== undefined ? object['lookupId']: object["oldId"]);
     const abilityProps = props.filter(
       (prop) => prop.specific && (prop.specific.includes(lookupId) || prop.specific.includes(id))
     );
