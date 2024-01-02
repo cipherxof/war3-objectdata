@@ -21,7 +21,7 @@ interface Prop {
   specific: string | undefined;
 }
 
-type OEObject = Record<string, string | number | boolean>;
+type OEObject = Record<string, string | number | boolean | object>;
 type OEObjects = Record<string, OEObject>;
 
 function generateProps(metaData: MappedData, weStrings: MappedDataRow): Prop[] {
@@ -78,38 +78,69 @@ function generateTSAbilityInterfaces(
   objects: OEObjects,
   props: Prop[]
 ) {
-  const baseProps = props.filter((prop) => !prop.specific);
-  const baseInterface = baseProps
+  const [ baseProps, baseLevelProps ] = props.reduce<[Prop[], Prop[]]>((all, prop) => {
+    if (!prop.specific) {
+      all[Number(prop.row.string('repeat')) > 0 ? 1 : 0].push(prop);
+    }
+    return all;
+  }, [[], []]);
+
+
+  const levelsProp = baseProps.find((prop) => prop.name === 'levels')
+  if (levelsProp) {
+    levelsProp.tsType = 'L'
+  }
+  let baseInterface = [...baseProps, ...baseLevelProps]
+    .map((prop) => `  ${prop.name}: ${prop.tsType};`)
+    .join("\n");
+
+  if (levelsProp) {
+    baseInterface += '\n  levelProps: Record<LevelKeys<L>, LevelDependantProps>'
+  }
+
+  const baseLevelInterface = baseLevelProps
     .map((prop) => `  ${prop.name}: ${prop.tsType};`)
     .join("\n");
   const interfaces = [];
-  const outBaseProps = baseProps
+  const outBaseProps = [...baseProps, ...baseLevelProps]
     .map(
       (prop) =>
-        `{ id: <const>'${prop.id}', name: <const>'${prop.name}', type: <const>'${prop.type}', netsafe: <const>'${<string>prop.row.string("netsafe") === "1"}' }`
+        `{ id: <const>'${prop.id}', name: <const>'${prop.name}', type: <const>'${prop.type}', levelDependant: <const>${Number(prop.row.string('repeat') || 0) > 0}, netsafe: <const>'${<string>prop.row.string("netsafe") === "1"}' }`
     )
     .join(", ");
   const outProps: Record<string, string> = {};
+  const usedNames: Record<string, boolean> = {};
 
   for (const object of Object.values(objects)) {
     const id = <string>object["oldId"];
-    const lookupId = <string>(object['lookupId'] !== undefined ? object['lookupId']: object["oldId"]);
+    const lookupId = <string>(object['lookupId'] !== undefined ? object['lookupId'] : object["oldId"]);
     const abilityProps = props.filter(
       (prop) => prop.specific && (prop.specific.includes(lookupId) || prop.specific.includes(id))
     );
-    let objectName = getOEObjectName(object);
+    let objectName = getOEObjectName(object, objects[lookupId]);
+        if (objectName) {
+            if (usedNames[objectName]) {
+                objectName = getOEObjectName(object, objects[lookupId], true);
+            }
+            usedNames[objectName as string] = true;
+        }
 
-    if (abilityProps.length) {
+  if (abilityProps.length) {
       interfaces.push(
-        `  export interface ${objectName} extends ${name} {\n${abilityProps
-          .map((prop) => `    ${prop.name}: ${prop.tsType};`)
-          .join("\n")}\n  }`
+        `  export interface ${objectName}<L extends number = 1> extends ${name}<L> {\n${abilityProps
+                    .map((prop) => `    ${prop.name}: ${prop.tsType};`)
+                    .join("\n")}
+    levelProps: Record<LevelKeys<L>, LevelDependantProps & {\n${abilityProps
+                    .map((prop) => `        ${prop.name}: ${prop.tsType};`)
+                    .join("\n")}
+    }>;
+  }`
       );
 
-      outProps[id] = abilityProps
+    outProps[id] = abilityProps
         .map(
           (prop) =>
-            `{ id: <const>'${prop.id}', name: <const>'${prop.name}', type: <const>'${prop.type}', netsafe: <const>'${<string>prop.row.string("netsafe") === "1"}' }`
+            `{ id: <const>'${prop.id}', name: <const>'${prop.name}', type: <const>'${prop.type}', levelDependant: <const>${Number(prop.row.string('repeat') || 0) > 0}, netsafe: <const>'${<string>prop.row.string("netsafe") === "1"}' }`
         )
         .join(", ");
     } else {
@@ -117,25 +148,43 @@ function generateTSAbilityInterfaces(
     }
   }
 
-  return `interface ${name} extends IDs {\n${baseInterface}\n};\n\nexport namespace ${name}Types {\n${interfaces.join(
-    "\n\n"
-  )}\n};\n\nexport const ${name}Props = [ ${outBaseProps} ];\nexport const ${name}SpecificProps = {\n${Object.entries(
-    outProps
-  )
+  return `
+interface LevelDependantProps {
+${baseLevelInterface}
+}
+
+type LevelKeys<L extends number> = L extends L ? number extends L ? never : Exclude<\`\${L}\`, '1'> : never;
+
+interface ${name}<L extends number = 1> extends IDs {\n${baseInterface}\n};\n\nexport namespace ${name}Types {\n${interfaces.join(
+        "\n\n"
+    )}\n};\n\nexport const ${name}Props = [ ${outBaseProps} ];\nexport const ${name}SpecificProps = {\n${Object.entries(
+        outProps
+    )
     .map(([id, props]) => `  ${id}: [${props}],`)
     .join("\n")}\n};`;
 }
 
-function getOEObjectName(object: OEObject) {
+function getOEObjectName(object: OEObject, parentObject?: OEObject, useRace?: boolean) {
   let name = <string | undefined>(
     (object["name"] || object["nameEditorOnly"] || object["tooltip"])
   );
+  if (!name && parentObject) {
+    name = <string | undefined>(
+      (parentObject["name"] || parentObject["nameEditorOnly"] || parentObject["tooltip"])
+    );
+  }
 
   let editorSuffix = <string | undefined>(
     (object["nameEditorSuffix"] || object["editorSuffix"])
   );
   if (editorSuffix) {
     name += editorSuffix;
+  }
+  if (useRace) {
+    let race = <string | undefined>(object["race"]);
+    if (race) {
+      name += ` ${race}`;
+    }
   }
 
   if (name) {
@@ -149,19 +198,23 @@ function generateTSEnum(name: string, objects: OEObjects, constant: boolean): st
   const names: { [key: string]: string } = {};
 
   for (const [id, object] of Object.entries(objects)) {
-    let enumName = getOEObjectName(object);
+    const lookupId = <string>(object['lookupId'] !== undefined ? object['lookupId'] : object["oldId"]);
+    let enumName = getOEObjectName(object, objects[lookupId]);
 
     if (enumName) {
       if (names[enumName] !== undefined) {
-        for (let suffix = 1; suffix < 20; suffix++) {
-          if (names[enumName + suffix] === undefined) {
-            enumName = enumName + suffix;
-            break;
+        enumName = getOEObjectName(object, objects[lookupId], true);
+        if (enumName && names[enumName]) {
+          for (let suffix = 1; suffix < 20; suffix++) {
+            if (names[enumName + suffix] === undefined) {
+              enumName = enumName + suffix;
+              break;
+            }
           }
         }
       }
 
-      names[enumName] = id;
+      names[enumName as string] = id;
     } else {
       console.warn("Object has no name: ", id, object);
     }
@@ -254,7 +307,9 @@ function generateObjects(
       // Not needed, but makes stuff more consistent with the map data.
       object["oldId"] = id;
       object["newId"] = "\0\0\0\0";
-
+      if('heroAbility' in object) { // Check if is ability
+        object['levelProps'] = {}
+      }
       objects[id] = object;
     } else {
       console.log("Found no name for object", id);
