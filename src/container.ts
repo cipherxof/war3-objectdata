@@ -31,6 +31,10 @@ export function objectLoader<T extends IDs>(
   props: Prop[],
   specificProps?: { [key: string]: Prop[] }
 ) {
+
+  if((<any>object).levelProps) {
+    (<any>object).levelProps = Object.assign({}, {...(<any>object).levelProps})
+  }
   for (const modification of modifications) {
     const { id, value } = modification;
     let prop = getProp(id, props);
