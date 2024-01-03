@@ -105,7 +105,7 @@ function generateTSAbilityInterfaces(
   const outBaseProps = [...baseProps, ...baseLevelProps]
     .map(
       (prop) =>
-        `{ id: <const>'${prop.id}', name: <const>'${prop.name}', type: <const>'${prop.type}', levelDependant: <const>${Number(prop.row.string('repeat') || 0) > 0}, netsafe: <const>'${<string>prop.row.string("netsafe") === "1"}' }`
+        `{ id: <const>'${prop.id}', name: <const>'${prop.name}', type: <const>'${prop.type}', levelDependant: <const>${Number(prop.row.string('repeat') || 0) > 0}, dataPointer: <const>${Number(prop.row.string('data') || 0)}, netsafe: <const>'${<string>prop.row.string("netsafe") === "1"}' }`
     )
     .join(", ");
   const outProps: Record<string, string> = {};
@@ -140,7 +140,7 @@ function generateTSAbilityInterfaces(
     outProps[id] = abilityProps
         .map(
           (prop) =>
-            `{ id: <const>'${prop.id}', name: <const>'${prop.name}', type: <const>'${prop.type}', levelDependant: <const>${Number(prop.row.string('repeat') || 0) > 0}, netsafe: <const>'${<string>prop.row.string("netsafe") === "1"}' }`
+            `{ id: <const>'${prop.id}', name: <const>'${prop.name}', type: <const>'${prop.type}', levelDependant: <const>${Number(prop.row.string('repeat') || 0) > 0}, dataPointer: <const>${Number(prop.row.string('data') || 0)}, netsafe: <const>'${<string>prop.row.string("netsafe") === "1"}' }`
         )
         .join(", ");
     } else {

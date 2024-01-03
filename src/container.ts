@@ -64,19 +64,6 @@ export function objectLoader<T extends IDs>(
   }
 }
 
-function getLastDigitIfFourLetterWord(word: string): number | 0 {
-  // Check if the word is four letters long and ends with a digit
-  const match = word.match(/^.{3}(\d)$/);
-
-  // If match is found and has a capturing group, return the digit as a number
-  if (match && match[1]) {
-    return parseInt(match[1], 10);
-  }
-
-  // Return 0 if no match
-  return 0;
-}
-
 export function objectSaver<T extends IDs>(
     gameObject: T,
     object: T,
@@ -99,7 +86,7 @@ export function objectSaver<T extends IDs>(
         if(level) {
           modification.levelOrVariation = level;
         }
-        modification.dataPointer = getLastDigitIfFourLetterWord(prop.id);
+        modification.dataPointer = prop.dataPointer || 0;
 
         modifications.push(
             modification

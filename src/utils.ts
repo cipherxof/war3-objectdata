@@ -8,6 +8,7 @@ export interface Prop {
   name: string;
   type: string;
   levelDependant?: boolean;
+  dataPointer?: number;
   netsafe: string;
 }
 export function war3ToTS(
