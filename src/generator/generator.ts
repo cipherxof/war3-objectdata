@@ -95,7 +95,7 @@ function generateTSAbilityInterfaces(
     .join("\n");
 
   if (levelsProp) {
-    baseInterface += '\n  levelProps: Record<LevelKeys<L>, LevelDependantProps>'
+    baseInterface += '\n  levelProps: Record<LevelKeys<L>, Partial<LevelDependantProps>>'
   }
 
   const baseLevelInterface = baseLevelProps
@@ -130,10 +130,10 @@ function generateTSAbilityInterfaces(
         `  export interface ${objectName}<L extends number = 1> extends ${name}<L> {\n${abilityProps
                     .map((prop) => `    ${prop.name}: ${prop.tsType};`)
                     .join("\n")}
-    levelProps: Record<LevelKeys<L>, LevelDependantProps & {\n${abilityProps
+    levelProps: Record<LevelKeys<L>, Partial<LevelDependantProps & {\n${abilityProps
                     .map((prop) => `        ${prop.name}: ${prop.tsType};`)
                     .join("\n")}
-    }>;
+    }>>;
   }`
       );
 

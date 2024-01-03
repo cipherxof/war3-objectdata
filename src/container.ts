@@ -33,7 +33,7 @@ export function objectLoader<T extends IDs>(
 ) {
 
   if((<any>object).levelProps) {
-    (<any>object).levelProps = Object.assign({}, {...(<any>object).levelProps})
+    (<any>object).levelProps = {...(<any>object).levelProps}
   }
   for (const modification of modifications) {
     const { id, value } = modification;
