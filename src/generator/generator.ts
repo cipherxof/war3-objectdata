@@ -252,49 +252,56 @@ function generateObjects(
     if(lookupId !== id) {
       object['lookupId'] = lookupId
     }
+    const levelProps: Record<number, OEObject> = {}
+
     for (const prop of props) {
-      if (!prop.specific || prop.specific.includes(id)) {
-        let value: string | undefined;
+        let value;
 
-        if (prop.profile) {
-          const profileRow = profile.getRow(id);
-
-          if (profileRow) {
-            value = profileRow.string(prop.field.toLowerCase());
-          }
-        } else {
-          value = row.string(prop.field);
-        }
-
-        // Lots of values are missing, especially for buffs.
-        if (value === undefined) {
-          object[prop.name] = war3ToDefaultTS(prop.type);
-        } else {
-          if (value.startsWith("WESTRING")) {
-            value = weStrings.string(value);
-          }
-
-          try {
-            if (value && value.includes(",") && prop.field.toLowerCase().includes("buttonpos")) {
-              const axis = prop.name.slice(-1).toLowerCase();
-              const values = value.split(',');
-              if (values.length >= 2) {
-                value = axis === "x" ? values[0] : values[1];
+        // Check if the property is level-dependent
+        const repeatFlag = prop.row.string('repeat')
+        if (repeatFlag && parseInt(repeatFlag) > 0) {
+            // Handle level-dependent properties
+            const maxLevels = parseInt(row.string('levels') || '1');
+          for (let level = 1; level <= maxLevels; level++) {
+            const levelField = `${prop.field}${level}`;
+            const value = row.string(levelField);
+            if (value !== undefined) {
+              if (level === 1) {
+                // Assign the value of the first level directly to the object
+                object[prop.name] = value;
+              } else {
+                // Ensure the level object exists in levelProps
+                levelProps[level] = levelProps[level] || {};
+                // Assign the value for subsequent levels to levelProps
+                levelProps[level][prop.name] = value;
               }
             }
-            object[prop.name] = war3ToTS(prop.type, value);
-          } catch (e) {
-            console.log(
-              "FAILED TO CONVERT WAR3 TO TS",
-              id,
-              prop.id,
-              prop.name,
-              value,
-              typeof value
-            );
           }
+        } else {
+            // Handle non-level-dependent properties
+            if (prop.profile) {
+                const profileRow = profile.getRow(id);
+                if (profileRow) {
+                    value = profileRow.string(prop.field.toLowerCase());
+                }
+            } else {
+                value = row.string(prop.field);
+            }
+
+            if (value === undefined) {
+                object[prop.name] = war3ToDefaultTS(prop.type);
+            } else {
+                if (value.startsWith("WESTRING")) {
+                    value = weStrings.string(value);
+                }
+
+                try {
+                    object[prop.name] = war3ToTS(prop.type, value);
+                } catch (e) {
+                    console.log("FAILED TO CONVERT WAR3 TO TS", id, prop.id, prop.name, value, typeof value);
+                }
+            }
         }
-      }
     }
 
     // Some objects seem to have no real data.
@@ -307,8 +314,8 @@ function generateObjects(
       // Not needed, but makes stuff more consistent with the map data.
       object["oldId"] = id;
       object["newId"] = "\0\0\0\0";
-      if('heroAbility' in object) { // Check if is ability
-        object['levelProps'] = {}
+      if(row.string('levels') !== undefined) { // Check if it is an ability
+        object['levelProps'] = levelProps
       }
       objects[id] = object;
     } else {

@@ -103,10 +103,11 @@ export function objectSaver<T extends IDs>(
   if ('levelProps' in object) {
     for (const level in (<any>object).levelProps) {
       const levelObjectProps = (<any>object).levelProps[level];
+      const gameObjectProps = (<any>gameObject).levelProps?.[level] || {};
       // const gameObjectLevelProps = gameObject.levelProps?.[level] || {};
 
       // Assuming levelObjectProps has the same structure as baseProps
-      processProps({}, levelObjectProps, allProps, Number(level));
+      processProps(gameObjectProps, levelObjectProps, allProps, Number(level));
     }
   }
 
