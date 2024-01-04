@@ -253,7 +253,6 @@ function generateObjects(
       object['lookupId'] = lookupId
     }
     const levelProps: Record<number, OEObject> = {}
-
     for (const prop of props) {
         let value;
 
