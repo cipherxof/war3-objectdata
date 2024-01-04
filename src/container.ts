@@ -31,10 +31,6 @@ export function objectLoader<T extends IDs>(
   props: Prop[],
   specificProps?: { [key: string]: Prop[] }
 ) {
-
-  if((<any>object).levelProps) {
-    (<any>object).levelProps = {...(<any>object).levelProps}
-  }
   for (const modification of modifications) {
     const { id, value } = modification;
     let prop = getProp(id, props);
@@ -139,7 +135,7 @@ function loadObject<T extends IDs, E>(
     throw Error(`Failed to load an object: ${oldId}`);
   }
 
-  const mapObject = Object.assign({}, { ...gameObject, oldId, newId });
+  const mapObject = JSON.parse(JSON.stringify({ ...gameObject, oldId, newId }));
 
   objectLoader(mapObject, modifications, props, specificProps);
 
