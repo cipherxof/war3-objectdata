@@ -228,9 +228,7 @@ export abstract class Container<T extends IDs> {
 
       // If this object exists in the game data, copy it and add it to the map data in case it is modified by the caller.
       if (gameObject) {
-        object = Object.seal(
-          Object.assign({}, { ...gameObject, oldId: id, newId: "\0\0\0\0" })
-        );
+        object = JSON.parse(JSON.stringify({ ...gameObject, oldId: id, newId: "\0\0\0\0" }))
 
         this.map[id] = object;
       }
@@ -277,9 +275,7 @@ export abstract class Container<T extends IDs> {
     }
 
     // Copy the object.
-    const object = Object.seal(
-      Object.assign({}, baseObject, { oldId: baseId, newId })
-    );
+    const object = JSON.parse(JSON.stringify({ ...baseObject, oldId: baseId, newId }));
 
     this.map[newId] = object;
 
