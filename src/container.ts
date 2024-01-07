@@ -135,7 +135,7 @@ function loadObject<T extends IDs, E>(
     throw Error(`Failed to load an object: ${oldId}`);
   }
 
-  const mapObject = JSON.parse(JSON.stringify({ ...gameObject, oldId, newId }));
+  const mapObject = objects.map[newId] || JSON.parse(JSON.stringify({ ...gameObject, oldId, newId }));
 
   objectLoader(mapObject, modifications, props, specificProps);
 
