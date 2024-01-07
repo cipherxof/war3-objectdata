@@ -1,7 +1,7 @@
 import Modification from "mdx-m3-viewer-th/dist/cjs/parsers/w3x/w3u/modification";
 import ModificationTable from "mdx-m3-viewer-th/dist/cjs/parsers/w3x/w3u/modificationtable";
 import ModifiedObject from "mdx-m3-viewer-th/dist/cjs/parsers/w3x/w3u/modifiedobject";
-import { generateId, pushArray, tsToWar3, war3ToTS } from "./utils";
+import { generateId, Prop, pushArray, tsToWar3, war3ToTS } from "./utils";
 
 export interface IDs {
   oldId: string;
@@ -13,12 +13,7 @@ interface Objects<T> {
   map: { [key: string]: T };
 }
 
-interface Prop {
-  id: string;
-  name: string;
-  type: string;
-  netsafe: string;
-}
+
 
 function getProp(id: string, props: Prop[]): Prop | undefined {
   for (const prop of props) {
@@ -56,49 +51,63 @@ export function objectLoader<T extends IDs>(
       );
     }
 
-    // A neccessary evil.
-    (<any>object)[prop.name] = war3ToTS(prop.type, value);
+    if(modification.levelOrVariation > 1) {
+      if(!(<any>object).levelProps[modification.levelOrVariation]) {
+        (<any>object).levelProps[modification.levelOrVariation] = {};
+      }
+      (<any>object).levelProps[modification.levelOrVariation][prop.name] = war3ToTS(prop.type, value);
+
+    } else {
+      // A neccessary evil.
+      (<any>object)[prop.name] = war3ToTS(prop.type, value);
+    }
   }
 }
 
 export function objectSaver<T extends IDs>(
-  gameObject: T,
-  object: T,
-  baseProps: Prop[],
-  skin: boolean,
-  specificProps?: { [key: string]: Prop[] }
+    gameObject: T,
+    object: T,
+    baseProps: Prop[],
+    skin: boolean,
+    specificProps?: { [key: string]: Prop[] }
 ): Modification[] {
-  const modifications = [];
+  const modifications: Modification[] = [];
 
-  for (const prop of baseProps) {
-    if ((<any>gameObject)[prop.name] !== (<any>object)[prop.name]) {
-      if (skin && prop.netsafe !== "true") {
-        continue;
-      } else if (!skin && prop.netsafe === "true") {
-        continue;
-      }
-      modifications.push(
-        tsToWar3(prop.id, prop.type, (<any>object)[prop.name])
-      );
-    }
-  }
-
-  if (specificProps) {
-    const props = specificProps[gameObject.oldId];
-
-    if (props) {
-      for (const prop of props) {
-        if ((<any>gameObject)[prop.name] !== (<any>object)[prop.name]) {
-          if (skin && prop.netsafe !== "true") {
-            continue;
-          } else if (!skin && prop.netsafe === "true") {
-            continue;
-          }
-          modifications.push(
-            tsToWar3(prop.id, prop.type, (<any>object)[prop.name])
-          );
+  const processProps = (sourceObj: any, targetObj: any, props: Prop[], level?: number) => {
+    for (const prop of props) {
+      if (sourceObj[prop.name] !== targetObj[prop.name]) {
+        if (skin && prop.netsafe !== "true") {
+          continue;
+        } else if (!skin && prop.netsafe === "true") {
+          continue;
         }
+
+        const modification = tsToWar3(prop, targetObj[prop.name]);
+        if(level) {
+          modification.levelOrVariation = level;
+        }
+        modification.dataPointer = prop.dataPointer || 0;
+
+        modifications.push(
+            modification
+        );
       }
+    }
+  };
+  const allProps = [...baseProps, ...(specificProps?.[gameObject.oldId] || [])]
+  // Process properties
+  processProps(gameObject, object, allProps);
+
+
+  // Process levelProps if they exist
+  if ('levelProps' in object) {
+    for (const level in (<any>object).levelProps) {
+      const levelObjectProps = (<any>object).levelProps[level];
+      const gameObjectProps = (<any>gameObject).levelProps?.[level] || {};
+      // const gameObjectLevelProps = gameObject.levelProps?.[level] || {};
+
+      // Assuming levelObjectProps has the same structure as baseProps
+      processProps(gameObjectProps, levelObjectProps, allProps, Number(level));
     }
   }
 
@@ -126,8 +135,8 @@ function loadObject<T extends IDs, E>(
     throw Error(`Failed to load an object: ${oldId}`);
   }
 
-  const mapObject = Object.assign({}, { ...gameObject, oldId, newId });
-  
+  const mapObject = objects.map[newId] || JSON.parse(JSON.stringify({ ...gameObject, oldId, newId }));
+
   objectLoader(mapObject, modifications, props, specificProps);
 
   if (objects.map[objectId]) {
@@ -168,7 +177,7 @@ export function save<T extends IDs, E>(
 
   for (const object of Object.values(objects.map)) {
     const gameObject = objects.game[object.oldId];
-    
+
     if (!gameObject) {
       throw Error(
         `Tried to save the modifications of an object with an invalid oldId: ${object.oldId} (newId=${object.newId})`
@@ -219,9 +228,7 @@ export abstract class Container<T extends IDs> {
 
       // If this object exists in the game data, copy it and add it to the map data in case it is modified by the caller.
       if (gameObject) {
-        object = Object.seal(
-          Object.assign({}, { ...gameObject, oldId: id, newId: "\0\0\0\0" })
-        );
+        object = JSON.parse(JSON.stringify({ ...gameObject, oldId: id, newId: "\0\0\0\0" }))
 
         this.map[id] = object;
       }
@@ -248,7 +255,7 @@ export abstract class Container<T extends IDs> {
 
       // Is this object from the map?
       baseObject = this.map[baseId];
-      
+
       // Is this object from the game?
       if (!baseObject) {
         baseObject = this.game[baseId];
@@ -268,9 +275,7 @@ export abstract class Container<T extends IDs> {
     }
 
     // Copy the object.
-    const object = Object.seal(
-      Object.assign({}, baseObject, { oldId: baseId, newId })
-    );
+    const object = JSON.parse(JSON.stringify({ ...baseObject, oldId: baseId, newId }));
 
     this.map[newId] = object;
 
