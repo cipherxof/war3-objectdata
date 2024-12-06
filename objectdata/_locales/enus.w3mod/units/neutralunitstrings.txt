@@ -73,12 +73,12 @@ Ubertip="Light melee unit with Shadowmeld. |n|n|cffffcc00Attacks land units.|r"
 Name=Enforcer
 Hotkey=E
 Tip=Hire Enforcer
-Ubertip="Light melee unit with Shadowmeld and Evasion. |n|n|cffffcc00Attacks land units.|r"
+Ubertip="Light melee unit with Evasion. |n|n|cffffcc00Attacks land units.|r"
 
 [nbld]
 Name=Bandit Lord
 Tip=Hire Bandit Lord
-Ubertip="Heavy melee unit with Shadowmeld and Devotion Aura. Can cast Divine Shield. |n|n|cffffcc00Attacks land units.|r"
+Ubertip="Heavy melee unit with Devotion Aura. Can cast Divine Shield. |n|n|cffffcc00Attacks land units.|r"
 
 [nass]
 Name=Assassin

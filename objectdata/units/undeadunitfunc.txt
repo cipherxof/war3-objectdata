@@ -216,7 +216,7 @@ Attachmentanimprops=medium
 // Tomb of Relics
 [utom]
 Buttonpos=2,2
-Makeitems=rnec,dust,skul,phea,pman,stwp,ocor,shea,ritd
+Makeitems=rnec,dust,skul,phea,pman,stwp,ocor,wneg,ritd
 Specialart=Objects\Spawnmodels\Undead\UCancelDeath\UCancelDeath.mdl
 Attachmentanimprops=medium
 

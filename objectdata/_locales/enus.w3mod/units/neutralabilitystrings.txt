@@ -131,11 +131,11 @@ Buffubertip="Pocket Factory."
 Name=Cluster Rockets
 Tip=Cluster Rockets - [|cffffcc00Level 1|r],Cluster Rockets - [|cffffcc00Level 2|r],Cluster Rockets - [|cffffcc00Level 3|r]
 Researchtip="Learn Cluster Rockets - [|cffffcc00Level %d|r]"
-Ubertip="Bombards an area with rockets, dealing up to 45 damage to nearby enemy units and stunning them for <ANcs,Dur1> second.","Bombards an area with rockets, dealing up to 75 damage to nearby enemy units and stunning them for <ANcs,Dur2> second.","Bombards an area with rockets, dealing up to 110 damage to nearby enemy units and stunning them for <ANcs,Dur3> second."
+Ubertip="Bombards an area with rockets, dealing up to 45 damage to nearby enemy units and stunning them for <ANcs,Dur1> second. Also hits mechanicals and buildings","Bombards an area with rockets, dealing up to 75 damage to nearby enemy units and stunning them for <ANcs,Dur2> second. Also hits mechanicals and buildings","Bombards an area with rockets, dealing up to 110 damage to nearby enemy units and stunning them for <ANcs,Dur3> second. Also hits mechanicals and buildings"
 Ubertip:custom,V0="Bombards an area with rockets, dealing up to 35 damage to nearby enemy land units and stunning them for <ANcs,Dur1> second.","Bombards an area with rockets, dealing up to 65 damage to nearby enemy land units and stunning them for <ANcs,Dur2> second.","Bombards an area with rockets, dealing up to 100 damage to nearby enemy land units and stunning them for <ANcs,Dur3> second."
 Ubertip:custom,V1="Bombards an area with rockets, dealing up to 35 damage to nearby enemy land units and stunning them for <ANcs,Dur1> second.","Bombards an area with rockets, dealing up to 65 damage to nearby enemy land units and stunning them for <ANcs,Dur2> second.","Bombards an area with rockets, dealing up to 100 damage to nearby enemy land units and stunning them for <ANcs,Dur3> second."
 Ubertip:melee,V0="Bombards an area with rockets, dealing up to 35 damage to nearby enemy land units and stunning them for <ANcs,Dur1> second.","Bombards an area with rockets, dealing up to 65 damage to nearby enemy land units and stunning them for <ANcs,Dur2> second.","Bombards an area with rockets, dealing up to 100 damage to nearby enemy land units and stunning them for <ANcs,Dur3> second."
-Researchubertip="Bombards an area with rockets, stunning enemy units for <ANcs,Dur1> second and damaging nearby enemy units.|n|n|cffffcc00Level 1|r - 45 damage.|n|cffffcc00Level 2|r - 75 damage.|n|cffffcc00Level 3|r - 110 damage."
+Researchubertip="Bombards an area with rockets, damaging and stunning enemy ground and air units for <ANcs,Dur1> second. Also hits mechanicals and buildings.|n|n|cffffcc00Level 1|r - 45 damage.|n|cffffcc00Level 2|r - 75 damage.|n|cffffcc00Level 3|r - 110 damage."
 Researchubertip:custom,V0="Bombards an area with rockets, stunning enemy land units for <ANcs,Dur1> second and damaging nearby enemy units.|n|n|cffffcc00Level 1|r - 35 damage.|n|cffffcc00Level 2|r - 65 damage.|n|cffffcc00Level 3|r - 100 damage."
 Researchubertip:custom,V1="Bombards an area with rockets, stunning enemy land units for <ANcs,Dur1> second and damaging nearby enemy units.|n|n|cffffcc00Level 1|r - 35 damage.|n|cffffcc00Level 2|r - 65 damage.|n|cffffcc00Level 3|r - 100 damage."
 Researchubertip:melee,V0="Bombards an area with rockets, stunning enemy land units for <ANcs,Dur1> second and damaging nearby enemy units.|n|n|cffffcc00Level 1|r - 35 damage.|n|cffffcc00Level 2|r - 65 damage.|n|cffffcc00Level 3|r - 100 damage."
@@ -147,11 +147,11 @@ Researchhotkey=R
 Name=Cluster Rockets
 Tip=Cluster Rockets - [|cffffcc00Level 1|r],Cluster Rockets - [|cffffcc00Level 2|r],Cluster Rockets - [|cffffcc00Level 3|r]
 Researchtip="Learn Cluster Rockets - [|cffffcc00Level %d|r]"
-Ubertip="Bombards an area with rockets, dealing up to 45 damage to nearby enemy units and stunning them for <ANc1,Dur1> second.","Bombards an area with rockets, dealing up to 75 damage to nearby enemy units and stunning them for <ANc1,Dur2> second.","Bombards an area with rockets, dealing up to 110 damage to nearby enemy units and stunning them for <ANc1,Dur3> second."
+Ubertip="Bombards an area with rockets, dealing up to 45 damage to nearby enemy ground and air units and stunning them for <ANc1,Dur1> second. Also hits mechanicals and buildings","Bombards an area with rockets, dealing up to 75 damage to nearby enemy ground and air units and stunning them for <ANc1,Dur2> second.","Bombards an area with rockets, dealing up to 110 damage to nearby enemy units and stunning them for <ANc1,Dur3> second."
 Ubertip:custom,V0="Bombards an area with rockets, dealing up to 35 damage to nearby enemy land units and stunning them for <ANc1,Dur1> second.","Bombards an area with rockets, dealing up to 65 damage to nearby enemy land units and stunning them for <ANc1,Dur2> second.","Bombards an area with rockets, dealing up to 100 damage to nearby enemy land units and stunning them for <ANc1,Dur3> second."
 Ubertip:custom,V1="Bombards an area with rockets, dealing up to 35 damage to nearby enemy land units and stunning them for <ANc1,Dur1> second.","Bombards an area with rockets, dealing up to 65 damage to nearby enemy land units and stunning them for <ANc1,Dur2> second.","Bombards an area with rockets, dealing up to 100 damage to nearby enemy land units and stunning them for <ANc1,Dur3> second."
 Ubertip:melee,V0="Bombards an area with rockets, dealing up to 35 damage to nearby enemy land units and stunning them for <ANc1,Dur1> second.","Bombards an area with rockets, dealing up to 65 damage to nearby enemy land units and stunning them for <ANc1,Dur2> second.","Bombards an area with rockets, dealing up to 100 damage to nearby enemy land units and stunning them for <ANc1,Dur3> second."
-Researchubertip="Bombards an area with rockets, stunning enemy units for <ANc1,Dur1> second and damaging nearby enemy units.|n|n|cffffcc00Level 1|r - 45 damage.|n|cffffcc00Level 2|r - 75 damage.|n|cffffcc00Level 3|r - 110 damage"
+Researchubertip="Bombards an area with rockets, stunning enemy ground and air units for <ANc1,Dur1> second and damaging nearby enemy units. Also hits mechanicals and buildings. |n|n|cffffcc00Level 1|r - 45 damage.|n|cffffcc00Level 2|r - 75 damage.|n|cffffcc00Level 3|r - 110 damage"
 Researchubertip:custom,V0="Bombards an area with rockets, stunning enemy land units for <ANc1,Dur1> second and damaging nearby enemy units.|n|n|cffffcc00Level 1|r - 35 damage.|n|cffffcc00Level 2|r - 65 damage.|n|cffffcc00Level 3|r - 100 damage"
 Researchubertip:custom,V1="Bombards an area with rockets, stunning enemy land units for <ANc1,Dur1> second and damaging nearby enemy units.|n|n|cffffcc00Level 1|r - 35 damage.|n|cffffcc00Level 2|r - 65 damage.|n|cffffcc00Level 3|r - 100 damage"
 Researchubertip:melee,V0="Bombards an area with rockets, stunning enemy land units for <ANc1,Dur1> second and damaging nearby enemy units.|n|n|cffffcc00Level 1|r - 35 damage.|n|cffffcc00Level 2|r - 65 damage.|n|cffffcc00Level 3|r - 100 damage"
@@ -417,8 +417,8 @@ Buffubertip="This unit is benefiting from Chemical Rage.  It is moving and attac
 Name=Transmute
 Tip="Transmute"
 Researchtip="Learn Transmute"
-Ubertip="Kills a target unit instantly, transforming it into gold which is added to your available gold!|nTransmute cannot be used on Heroes, or creeps above level <ANtm,DataC1>."
-Researchubertip="Kills a target unit instantly, transforming it into gold which is added to your available gold!|nTransmute cannot be used on Heroes, or creeps above level <ANtm,DataC1>."
+Ubertip="Kills a target enemy unit instantly, transforming it into gold which is added to your available gold!|nTransmute pierces spell immunity, but cannot be used on Heroes, or creeps above level <ANtm,DataC1>."
+Researchubertip="Kills a target enemy unit instantly, transforming it into gold which is added to your available gold!|nTransmute pierces spell immunity, but cannot be used on Heroes, or creeps above level <ANtm,DataC1>."
 Hotkey=T
 Researchhotkey=T
 
@@ -530,7 +530,7 @@ Hotkey=K
 [ANms]
 Name=Mana Shield
 Tip=Activate Mana Shield - [|cffffcc00Level 1|r],Activate Mana Shield - [|cffffcc00Level 2|r],Activate Mana Shield - [|cffffcc00Level 3|r]
-Ubertip="Activates a shield that absorbs <ANms,DataA1> damage per point of mana.","Activates a shield that absorbs <ANms,DataA2> damage per point of mana.","Activates a shield that absorbs <ANms,DataA3> damage per point of mana."
+Ubertip="Activates a shield that absorbs <ANms,DataA1> damage per point of mana. Blocked damage ignores Armor and Armor Types. ","Activates a shield that absorbs <ANms,DataA2> damage per point of mana.","Activates a shield that absorbs <ANms,DataA3> damage per point of mana."
 Ubertip:custom,V0=Activates a shield that absorbs 1 damage per point of mana.,Activates a shield that absorbs 1.5 damage per point of mana.,Activates a shield that absorbs 2 damage per point of mana.
 Ubertip:custom,V1=Activates a shield that absorbs 1 damage per point of mana.,Activates a shield that absorbs 1.5 damage per point of mana.,Activates a shield that absorbs 2 damage per point of mana.
 Ubertip:melee,V0=Activates a shield that absorbs 1 damage per point of mana.,Activates a shield that absorbs 1.5 damage per point of mana.,Activates a shield that absorbs 2 damage per point of mana.
@@ -538,15 +538,15 @@ Untip=Deactivate Mana Shield
 Hotkey=N
 Unhotkey=N
 Researchtip="Learn Mana Shield - [|cffffcc00Level %d|r]"
-Researchubertip="Creates a shield that absorbs damage by using the Sea Witch's mana. |n|n|cffffcc00Level 1|r - <ANms,DataA1> damage per point of mana. |n|cffffcc00Level 2|r - <ANms,DataA2> damage per point of mana. |n|cffffcc00Level 3|r - <ANms,DataA3> damage per point of mana."
-Researchubertip:custom,V0=Creates a shield that absorbs damage by using the Sea Witch's mana. |n|n|cffffcc00Level 1|r - 1 damage per point of mana. |n|cffffcc00Level 2|r - 1.5 damage per point of mana. |n|cffffcc00Level 3|r - 2 damage per point of mana.
-Researchubertip:custom,V1=Creates a shield that absorbs damage by using the Sea Witch's mana. |n|n|cffffcc00Level 1|r - 1 damage per point of mana. |n|cffffcc00Level 2|r - 1.5 damage per point of mana. |n|cffffcc00Level 3|r - 2 damage per point of mana.
-Researchubertip:melee,V0=Creates a shield that absorbs damage by using the Sea Witch's mana. |n|n|cffffcc00Level 1|r - 1 damage per point of mana. |n|cffffcc00Level 2|r - 1.5 damage per point of mana. |n|cffffcc00Level 3|r - 2 damage per point of mana.
+Researchubertip="Creates a shield that absorbs damage by using the Sea Witch's mana. Blocked damage ignores Armor and Armor Types. |n|n|cffffcc00Level 1|r - <ANms,DataA1> damage per point of mana. |n|cffffcc00Level 2|r - <ANms,DataA2> damage per point of mana. |n|cffffcc00Level 3|r - <ANms,DataA3> damage per point of mana."
+Researchubertip:custom,V0=Creates a shield that absorbs damage by using the Sea Witch's mana. Blocked damage ignores Armor and Armor Types. |n|n|cffffcc00Level 1|r - 1 damage per point of mana. |n|cffffcc00Level 2|r - 1.5 damage per point of mana. |n|cffffcc00Level 3|r - 2 damage per point of mana.
+Researchubertip:custom,V1=Creates a shield that absorbs damage by using the Sea Witch's mana. Blocked damage ignores Armor and Armor Types. |n|n|cffffcc00Level 1|r - 1 damage per point of mana. |n|cffffcc00Level 2|r - 1.5 damage per point of mana. |n|cffffcc00Level 3|r - 2 damage per point of mana.
+Researchubertip:melee,V0=Creates a shield that absorbs damage by using the Sea Witch's mana. Blocked damage ignores Armor and Armor Types. |n|n|cffffcc00Level 1|r - 1 damage per point of mana. |n|cffffcc00Level 2|r - 1.5 damage per point of mana. |n|cffffcc00Level 3|r - 2 damage per point of mana.
 Researchhotkey=N
 
 [BNms]
 Bufftip=Mana Shield
-Buffubertip="This unit has a Mana Shield; it is temporarily protected from physical damage and negative spells."
+Buffubertip="This unit has a Mana Shield; it is temporarily protected from physical damage and negative spells. Blocked damage ignores Armor and Armor Types."
 
 // Rain of Fire
 [ANrf]
@@ -652,12 +652,12 @@ Ubertip="The creature strikes with such force that <ACce,DataA1,%>% of their dam
 [ANdo]
 Name=Doom
 Tip=Doom
-Ubertip="Marks a target unit for the manifestation of a Demon. The afflicted unit cannot cast spells and will take <ANdo,DataA1> damage per second until it dies. Upon its death, a great Demon will spawn from its corpse. Doom cannot be dispelled or cancelled."
+Ubertip="Marks a target unit for the manifestation of a Demon. The afflicted unit cannot cast spells and will take <ANdo,DataA1> damage per second until it dies. Upon its death, a great Demon will spawn from its corpse. Doom cannot be dispelled or cancelled. Pierces spell immunity."
 Ubertip:melee,V1="Marks a target unit for the manifestation of a Demon. The afflicted unit cannot cast spells, has <ANdo,DataE1,%>% reduced movement speed, and will take <ANdo,DataA1> damage per second until it dies. Upon its death, a great Demon will spawn from its corpse. Doom cannot be dispelled or cancelled."
 Hotkey=D
 Researchtip="Learn Doom"
-Researchubertip="Marks a target unit for the manifestation of a Demon. The afflicted unit cannot cast spells and will take <ANdo,DataA1> damage per second until it dies. Upon its death, a great Demon will spawn from its corpse. Doom cannot be dispelled or cancelled."
-Researchubertip:melee,V1="Marks a target unit for the manifestation of a Demon. The afflicted unit cannot cast spells, has <ANdo,DataE1,%>% reduced movement speed, and will take <ANdo,DataA1> damage per second until it dies. Upon its death, a great Demon will spawn from its corpse. Doom cannot be dispelled or cancelled."
+Researchubertip="Marks a target unit for the manifestation of a Demon. The afflicted unit cannot cast spells and will take <ANdo,DataA1> damage per second until it dies. Upon its death, a great Demon will spawn from its corpse. Doom cannot be dispelled or cancelled. Pierces spell immunity."
+Researchubertip:melee,V1="Marks a target unit for the manifestation of a Demon. The afflicted unit cannot cast spells, has <ANdo,DataE1,%>% reduced movement speed, and will take <ANdo,DataA1> damage per second until it dies. Upon its death, a great Demon will spawn from its corpse. Doom cannot be dispelled or cancelled. Pierces spell immunity."
 Researchhotkey=D
 
 [BNdo]
@@ -814,10 +814,10 @@ Buffubertip="A proud hawk."
 [ANst]
 Name=Stampede
 Tip=Stampede
-Ubertip="Calls down hordes of rampaging thunder lizards to explode upon the Beastmaster's enemies. Each exploding lizard deals <ANst,DataC1> damage. |nLasts <ANst,Dur1> seconds."
+Ubertip="Calls down hordes of rampaging thunder lizards to explode upon the Beastmaster's enemies. Each exploding lizard deals <ANst,DataC1> damage. Pierces spell immunity. |nLasts <ANst,Dur1> seconds."
 Hotkey=T
 Researchtip=Learn Stampede
-Researchubertip="Calls down hordes of rampaging thunder lizards to explode upon the Beastmaster's enemies. Each exploding lizard deals <ANst,DataC1> damage. |nLasts <ANst,Dur1> seconds."
+Researchubertip="Calls down hordes of rampaging thunder lizards to explode upon the Beastmaster's enemies. Each exploding lizard deals <ANst,DataC1> damage. Pierces spell immunity. |nLasts <ANst,Dur1> seconds."
 Researchhotkey=T
 
 // Hex
@@ -1035,17 +1035,17 @@ Hotkey=B
 Name=Charm
 EditorSuffix= (Neutral Hostile)
 Tip=Charm
-Ubertip="Takes control of a target enemy unit. |nCharm cannot be used on Heroes, or creeps above level <ACch,DataA1>."
+Ubertip="Takes permanent control of a target enemy unit. |nCharm cannot be used on Heroes, or creeps above level <ACch,DataA1>."
 Hotkey=R
 
 // Charm
 [ANch]
 Name=Charm
 Tip=Charm
-Ubertip="Takes control of a target enemy unit. |nCharm cannot be used on Heroes, or creeps above level <ANch,DataA1>."
+Ubertip="Takes permanent control of a target enemy unit. |nCharm pierces spell immunity, but cannot be used on Heroes, or creeps above level <ANch,DataA1>."
 Hotkey=C
 Researchtip=Learn Charm
-Researchubertip="Takes control of a target enemy unit. |nCharm cannot be used on Heroes, or creeps above level <ANch,DataA1>."
+Researchubertip="Takes permanent control of a target enemy unit. |nCharm pierces spell immunity, but cannot be used on Heroes, or creeps above level <ANch,DataA1>."
 Researchhotkey=C
 
 // Monsoon
@@ -1094,10 +1094,10 @@ Hotkey=R
 [ANto]
 Name=Tornado
 Tip=Tornado
-Ubertip="Summons a fierce controllable Tornado that slows enemy units' movement speed, randomly tosses enemy ground units into the air and damages enemy buildings. |nLasts <ANto,Dur1> seconds."
+Ubertip="Summons a fierce controllable Tornado that slows enemy units' movement speed, randomly tosses enemy ground units into the air and damages enemy buildings. Pierces spell immunity. |nLasts <ANto,Dur1> seconds."
 Hotkey=T
 Researchtip="Learn Tornado"
-Researchubertip="Summons a fierce controllable Tornado that slows enemy units' movement speed, randomly tosses enemy ground units into the air and damages enemy buildings. |nLasts <ANto,Dur1> seconds."
+Researchubertip="Summons a fierce controllable Tornado that slows enemy units' movement speed, randomly tosses enemy ground units into the air and damages enemy buildings. Pierces spell immunity. |nLasts <ANto,Dur1> seconds."
 Researchhotkey=T
 
 // Tornado - Slow Aura
@@ -1142,7 +1142,7 @@ Ubertip=Renders this unit immune to all spells.,"Renders this unit immune to all
 [ACm3]
 Name=Spell Immunity, Spell Immunity
 Tip=Spell Immunity, Spell Immunity
-Ubertip=Renders this unit immune to all spells.,"Renders this unit immune to all spells."
+Ubertip=Renders this unit immune to all spells.,"Renders this unit immune to magic and most spells."
 
 [Arng]
 Name=Revenge
@@ -2265,7 +2265,7 @@ EditorSuffix= (Ships)
 [ACmi]
 Name=Spell Immunity
 Tip=Spell Immunity
-Ubertip="Renders this unit immune to all spells."
+Ubertip="Renders this unit immune to magic and most spells."
 EditorSuffix=(Neutral Hostile)
 
 [ACm2]
