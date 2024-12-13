@@ -246,10 +246,11 @@ Art=ReplaceableTextures\CommandButtons\BTNDrum.blp
 [will]
 Art=ReplaceableTextures\CommandButtons\BTNWand.blp
 
+// Wand of Negation
 [wneg]
 ButtonPos=3,1
 Requires=unp1
-Art=ReplaceableTextures\CommandButtons\BTNWandSkull.blp
+Art=ReplaceableTextures\CommandButtons\BTNWandOfNeutralization.blp
 
 [fgrd]
 Art=ReplaceableTextures\CommandButtons\BTNRedDragon.blp

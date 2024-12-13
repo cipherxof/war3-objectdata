@@ -22,6 +22,7 @@ Missilespeed=1000
 MissileHoming=1
 
 [BNic]
+MissileHoming=1
 
 // Soul Burn
 [ANso]

@@ -386,7 +386,7 @@ Unorder=townbelloff
 // Sundering Blades
 [Ahsb]
 Buttonpos=0,2
-
+Requires=Rhsb
 
 // 'damaged' attachment effect, small
 [Xfhs]

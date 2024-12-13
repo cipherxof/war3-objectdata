@@ -111,7 +111,6 @@ Requiresamount=2
 Art=ReplaceableTextures\CommandButtons\BTNEnchantedCrows.blp
 Buttonpos=1,1
 Requires=Redt
-Requiresamount=2
 
 [Rews]
 Art=ReplaceableTextures\CommandButtons\BTNWellSpring.blp

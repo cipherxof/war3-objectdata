@@ -61,7 +61,7 @@ Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
 
 [hbar]
 Trains=hfoo,hrif,hkni
-Researches=Rhde,Rhan,Rhri
+Researches=Rhde,Rhan,Rhri,Rhsb
 Buttonpos=1,0
 BuildingSoundLabel=BuildingConstructionLoop
 LoopingSoundFadeIn=512
@@ -196,7 +196,7 @@ Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
 Attachmentanimprops=large
 
 [hkni]
-Requires=hlum,hcas,hbla
+Requires=hcas,hbla
 Buttonpos=2,0
 MovementSoundLabel=HumanKnightMovement
 LoopingSoundFadeIn=512

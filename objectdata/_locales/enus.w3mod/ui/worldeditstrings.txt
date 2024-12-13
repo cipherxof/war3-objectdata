@@ -1,4 +1,4 @@
-﻿[WorldEditStrings]
+[WorldEditStrings]
 WESTRING_APPNAME=Warcraft III World Editor
 WESTRING_FILESEPARATOR_CAMPAIGNMAP="--"
 WESTRING_FILESEPARATOR_MAPAI="--"
@@ -1714,7 +1714,7 @@ WESTRING_WELCOMETITLE=Welcome to the Warcraft III World Editor
 WESTRING_WELCOME_LARGETEXT=Welcome to the Warcraft III World Editor
 WESTRING_WELCOME_SMALLTEXT1="The editor is a powerful tool that allows users to manipulate aspects of the Warcraft III game. In order to familiarize yourself with the functionality of the editor, we strongly recommend that you load up an existing map as a point of reference."
 WESTRING_WELCOME_SMALLTEXT2="PLEASE NOTE: Blizzard Entertainment does NOT directly support the editor. Our Technical Support team will be unable to answer questions about editor functionality or help resolve problems you may experience while using the editor."
-WESTRING_WELCOME_LEGALTEXT="By clicking “Continue” you agree to the terms and conditions set forth in both (1) Blizzard’s {WESTRING_LEGAL_EULA} and (2) Blizzard’s {WESTRING_LEGAL_CGUP}. These documents affect your legal rights. Please read them before using the editor."
+WESTRING_WELCOME_LEGALTEXT="By clicking Continue you agree to the terms and conditions set forth in both (1) Blizzards {WESTRING_LEGAL_EULA} and (2) Blizzards {WESTRING_LEGAL_CGUP}. These documents affect your legal rights. Please read them before using the editor."
 
 WESTRING_SKINTYPE_UNIT=Unit Skin
 WESTRING_SKINTYPE_ITEM=Item Skin
@@ -3606,7 +3606,7 @@ WESTRING_DOOD_EW00=Exterior Wall
 WESTRING_DOOD_EG00=Exterior Gate
 WESTRING_DOOD_ASD0=Archway (Standard Dimension)
 WESTRING_DOOD_SA02=Statue of Azshara
-WESTRING_DOOD_CGD0=Corpse of Gul’Dan
+WESTRING_DOOD_CGD0=Corpse of GulDan
 WESTRING_DOOD_VHMS=VioletHoldMainStructure
 WESTRING_DOOD_VHS0=Violet Hold Spire
 WESTRING_DOOD_VHSS=Violet Hold Spire (Small)
@@ -8782,6 +8782,7 @@ WESTRING_SKINVAL_C063=Model - Command Button - Cooldown
 WESTRING_SKINVAL_C064=Icon - Command - Active Highlight
 WESTRING_SKINVAL_C065=Icon - Command - Hero Glow
 WESTRING_SKINVAL_C066=Icon - Command - Number Overlay
+WESTRING_SKINVAL_C067=Icon - Command - Hotkey Overlay
 WESTRING_SKINVAL_CM01=Icon - Minimap Signal Button Enabled
 WESTRING_SKINVAL_CM02=Icon - Minimap Signal Button Pushed
 WESTRING_SKINVAL_CM03=Icon - Minimap Signal Button Disabled
@@ -10432,3 +10433,16 @@ WESTRING_FACIAL_ANIMATION_HAPPY=Happy
 WESTRING_FACIAL_ANIMATION_SAD=Sad
 WESTRING_FACIAL_ANIMATION_SERIOUS=Serious
 WESTRING_FACIAL_ANIMATION_SURPRISE=Surprise
+
+//Version 2.0.0 new strings
+WESTRING_WARNING_CHANGING_OPTION_REQUIRES_RESTART=* Changes to the selected settings will take effect the next time you start the editor.
+WESTRING_QUERY_CHANGING_OPTION_REQUIRES_RESTART=Changes to which assets will be used will take effect the next time you start the editor.
+WESTRING_HD2OPTION_BUILDINGS=Buildings
+WESTRING_HD2OPTION_ENVIRONMENT=Environment
+WESTRING_HD2OPTION_HEROES=Heroes
+WESTRING_HD2OPTION_ICONS=Icons
+WESTRING_HD2OPTION_UNITS=Units
+WESTRING_HD2OPTION_VFX=Vfx
+WESTRING_UEVAL_UPOR=Portrait Model File
+WESTRING_PREFS_FOLIAGE=&Foliage
+WESTRING_OFF=Off

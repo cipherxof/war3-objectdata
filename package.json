@@ -9,7 +9,8 @@
     "compile": "tsc",
     "build": "npm run generate && npm run compile",
     "prepublishOnly": "npm run build",
-    "test": "ts-node test/main.ts"
+    "test": "ts-node test/main.ts",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",

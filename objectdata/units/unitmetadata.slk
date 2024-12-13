@@ -1,5 +1,5 @@
 ID;PWXL;N;E
-B;X24;Y273;D0
+B;X24;Y274;D0
 C;X1;Y1;K"ID"
 C;X2;K"field"
 C;X3;K"slk"
@@ -3486,7 +3486,27 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K1
-C;X1;Y180;K"uver"
+C;X1;Y180;K"upor"
+C;X2;K"portrait"
+C;X3;K"Profile"
+C;X4;K-1
+C;X5;K"art"
+C;X6;K"WESTRING_UEVAL_UPOR"
+C;X7;K"c1a01b"
+C;X8;K"model"
+C;X9;K"m"
+C;X10;K"Model"
+C;X11;K0
+C;X12;K0
+C;X13;K0
+C;X16;K0
+C;X17;K1
+C;X18;K1
+C;X19;K1
+C;X20;K0
+C;X22;K0
+C;X24;K1
+C;X1;Y181;K"uver"
 C;X2;K"fileVerFlags"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3507,7 +3527,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y181;K"ufrd"
+C;X1;Y182;K"ufrd"
 C;X2;K"fogRad"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3527,7 +3547,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y182;K"uclg"
+C;X1;Y183;K"uclg"
 C;X2;K"green"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3548,7 +3568,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K1
-C;X1;Y183;K"uhos"
+C;X1;Y184;K"uhos"
 C;X2;K"hostilePal"
 C;X3;K"UnitUI"
 C;X4;K-1
@@ -3567,7 +3587,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y184;K"uine"
+C;X1;Y185;K"uine"
 C;X2;K"inEditor"
 C;X3;K"UnitUI"
 C;X4;K-1
@@ -3586,7 +3606,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y185;K"umxp"
+C;X1;Y186;K"umxp"
 C;X2;K"maxPitch"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3607,7 +3627,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y186;K"umxr"
+C;X1;Y187;K"umxr"
 C;X2;K"maxRoll"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3628,7 +3648,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y187;K"usca"
+C;X1;Y188;K"usca"
 C;X2;K"modelScale"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3649,7 +3669,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K1
-C;X1;Y188;K"unbm"
+C;X1;Y189;K"unbm"
 C;X2;K"nbmmIcon"
 C;X3;K"UnitUI"
 C;X4;K-1
@@ -3667,7 +3687,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y189;K"uhhb"
+C;X1;Y190;K"uhhb"
 C;X2;K"hideHeroBar"
 C;X3;K"UnitUI"
 C;X4;K-1
@@ -3685,7 +3705,7 @@ C;X19;K0
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y190;K"uhhm"
+C;X1;Y191;K"uhhm"
 C;X2;K"hideHeroMinimap"
 C;X3;K"UnitUI"
 C;X4;K-1
@@ -3703,7 +3723,7 @@ C;X19;K0
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y191;K"uhhd"
+C;X1;Y192;K"uhhd"
 C;X2;K"hideHeroDeathMsg"
 C;X3;K"UnitUI"
 C;X4;K-1
@@ -3721,7 +3741,7 @@ C;X19;K0
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y192;K"uhom"
+C;X1;Y193;K"uhom"
 C;X2;K"hideOnMinimap"
 C;X3;K"UnitUI"
 C;X4;K-1
@@ -3739,7 +3759,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y193;K"uocc"
+C;X1;Y194;K"uocc"
 C;X2;K"occH"
 C;X3;K"UnitUI"
 C;X4;K-1
@@ -3759,7 +3779,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y194;K"uclr"
+C;X1;Y195;K"uclr"
 C;X2;K"red"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3780,7 +3800,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K1
-C;X1;Y195;K"urun"
+C;X1;Y196;K"urun"
 C;X2;K"run"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3800,7 +3820,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y196;K"ussc"
+C;X1;Y197;K"ussc"
 C;X2;K"scale"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3821,7 +3841,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K1
-C;X1;Y197;K"uscb"
+C;X1;Y198;K"uscb"
 C;X2;K"scaleBull"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3839,7 +3859,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y198;K"usew"
+C;X1;Y199;K"usew"
 C;X2;K"selCircOnWater"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3858,7 +3878,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y199;K"uslz"
+C;X1;Y200;K"uslz"
 C;X2;K"selZ"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3879,7 +3899,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y200;K"ushh"
+C;X1;Y201;K"ushh"
 C;X2;K"shadowH"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3900,7 +3920,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y201;K"ushr"
+C;X1;Y202;K"ushr"
 C;X2;K"shadowOnWater"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3919,7 +3939,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K11
-C;X1;Y202;K"ushw"
+C;X1;Y203;K"ushw"
 C;X2;K"shadowW"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3940,7 +3960,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y203;K"ushx"
+C;X1;Y204;K"ushx"
 C;X2;K"shadowX"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3961,7 +3981,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y204;K"ushy"
+C;X1;Y205;K"ushy"
 C;X2;K"shadowY"
 C;X3;K"Profile"
 C;X4;K-1
@@ -3982,7 +4002,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y205;K"uspe"
+C;X1;Y206;K"uspe"
 C;X2;K"special"
 C;X3;K"UnitUI"
 C;X4;K-1
@@ -4001,7 +4021,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y206;K"utco"
+C;X1;Y207;K"utco"
 C;X2;K"teamColor"
 C;X3;K"UnitUI"
 C;X4;K-1
@@ -4020,7 +4040,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y207;K"utss"
+C;X1;Y208;K"utss"
 C;X2;K"tilesetSpecific"
 C;X3;K"UnitUI"
 C;X4;K-1
@@ -4038,7 +4058,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y208;K"uubs"
+C;X1;Y209;K"uubs"
 C;X2;K"uberSplat"
 C;X3;K"Profile"
 C;X4;K-1
@@ -4057,7 +4077,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y209;K"ushu"
+C;X1;Y210;K"ushu"
 C;X2;K"unitShadow"
 C;X3;K"Profile"
 C;X4;K-1
@@ -4077,7 +4097,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y210;K"usnd"
+C;X1;Y211;K"usnd"
 C;X2;K"unitSound"
 C;X3;K"Profile"
 C;X4;K-1
@@ -4095,7 +4115,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K1
-C;X1;Y211;K"uuch"
+C;X1;Y212;K"uuch"
 C;X2;K"useClickHelper"
 C;X3;K"UnitUI"
 C;X4;K-1
@@ -4114,7 +4134,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K1
-C;X1;Y212;K"uwal"
+C;X1;Y213;K"uwal"
 C;X2;K"walk"
 C;X3;K"Profile"
 C;X4;K-1
@@ -4134,7 +4154,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y213;K"uacq"
+C;X1;Y214;K"uacq"
 C;X2;K"acquire"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4154,7 +4174,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y214;K"ua1t"
+C;X1;Y215;K"ua1t"
 C;X2;K"atkType1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4172,7 +4192,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y215;K"ua2t"
+C;X1;Y216;K"ua2t"
 C;X2;K"atkType2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4190,7 +4210,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y216;K"ubs1"
+C;X1;Y217;K"ubs1"
 C;X2;K"backSw1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4210,7 +4230,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y217;K"ubs2"
+C;X1;Y218;K"ubs2"
 C;X2;K"backSw2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4230,7 +4250,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y218;K"ucbs"
+C;X1;Y219;K"ucbs"
 C;X2;K"castbsw"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4250,7 +4270,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y219;K"ucpt"
+C;X1;Y220;K"ucpt"
 C;X2;K"castpt"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4270,7 +4290,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y220;K"ua1c"
+C;X1;Y221;K"ua1c"
 C;X2;K"cool1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4290,7 +4310,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y221;K"ua2c"
+C;X1;Y222;K"ua2c"
 C;X2;K"cool2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4310,7 +4330,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y222;K"udl1"
+C;X1;Y223;K"udl1"
 C;X2;K"damageLoss1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4330,7 +4350,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y223;K"udl2"
+C;X1;Y224;K"udl2"
 C;X2;K"damageLoss2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4350,7 +4370,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y224;K"ua1d"
+C;X1;Y225;K"ua1d"
 C;X2;K"dice1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4370,7 +4390,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y225;K"ua2d"
+C;X1;Y226;K"ua2d"
 C;X2;K"dice2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4390,7 +4410,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y226;K"ua1b"
+C;X1;Y227;K"ua1b"
 C;X2;K"dmgplus1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4410,7 +4430,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y227;K"ua2b"
+C;X1;Y228;K"ua2b"
 C;X2;K"dmgplus2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4430,7 +4450,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y228;K"udp1"
+C;X1;Y229;K"udp1"
 C;X2;K"dmgpt1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4450,7 +4470,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y229;K"udp2"
+C;X1;Y230;K"udp2"
 C;X2;K"dmgpt2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4470,7 +4490,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y230;K"udu1"
+C;X1;Y231;K"udu1"
 C;X2;K"dmgUp1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4490,7 +4510,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y231;K"udu2"
+C;X1;Y232;K"udu2"
 C;X2;K"dmgUp2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4510,7 +4530,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y232;K"ua1f"
+C;X1;Y233;K"ua1f"
 C;X2;K"Farea1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4530,7 +4550,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y233;K"ua2f"
+C;X1;Y234;K"ua2f"
 C;X2;K"Farea2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4550,7 +4570,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y234;K"ua1h"
+C;X1;Y235;K"ua1h"
 C;X2;K"Harea1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4570,7 +4590,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y235;K"ua2h"
+C;X1;Y236;K"ua2h"
 C;X2;K"Harea2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4590,7 +4610,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y236;K"uhd1"
+C;X1;Y237;K"uhd1"
 C;X2;K"Hfact1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4610,7 +4630,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y237;K"uhd2"
+C;X1;Y238;K"uhd2"
 C;X2;K"Hfact2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4630,7 +4650,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y238;K"uisz"
+C;X1;Y239;K"uisz"
 C;X2;K"impactSwimZ"
 C;X3;K"Profile"
 C;X4;K-1
@@ -4650,7 +4670,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y239;K"uimz"
+C;X1;Y240;K"uimz"
 C;X2;K"impactZ"
 C;X3;K"Profile"
 C;X4;K-1
@@ -4670,7 +4690,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y240;K"ulsz"
+C;X1;Y241;K"ulsz"
 C;X2;K"launchSwimZ"
 C;X3;K"Profile"
 C;X4;K-1
@@ -4690,7 +4710,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y241;K"ulpx"
+C;X1;Y242;K"ulpx"
 C;X2;K"launchX"
 C;X3;K"Profile"
 C;X4;K-1
@@ -4710,7 +4730,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y242;K"ulpy"
+C;X1;Y243;K"ulpy"
 C;X2;K"launchY"
 C;X3;K"Profile"
 C;X4;K-1
@@ -4730,7 +4750,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y243;K"ulpz"
+C;X1;Y244;K"ulpz"
 C;X2;K"launchZ"
 C;X3;K"Profile"
 C;X4;K-1
@@ -4750,7 +4770,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K1
-C;X1;Y244;K"uamn"
+C;X1;Y245;K"uamn"
 C;X2;K"minRange"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4770,7 +4790,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y245;K"ua1q"
+C;X1;Y246;K"ua1q"
 C;X2;K"Qarea1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4790,7 +4810,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y246;K"ua2q"
+C;X1;Y247;K"ua2q"
 C;X2;K"Qarea2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4810,7 +4830,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y247;K"uqd1"
+C;X1;Y248;K"uqd1"
 C;X2;K"Qfact1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4830,7 +4850,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y248;K"uqd2"
+C;X1;Y249;K"uqd2"
 C;X2;K"Qfact2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4850,7 +4870,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y249;K"ua1r"
+C;X1;Y250;K"ua1r"
 C;X2;K"rangeN1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4870,7 +4890,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y250;K"ua2r"
+C;X1;Y251;K"ua2r"
 C;X2;K"rangeN2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4890,7 +4910,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y251;K"urb1"
+C;X1;Y252;K"urb1"
 C;X2;K"RngBuff1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4910,7 +4930,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y252;K"urb2"
+C;X1;Y253;K"urb2"
 C;X2;K"RngBuff2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4930,7 +4950,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y253;K"uwu1"
+C;X1;Y254;K"uwu1"
 C;X2;K"showUI1"
 C;X3;K"Profile"
 C;X4;K-1
@@ -4948,7 +4968,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y254;K"uwu2"
+C;X1;Y255;K"uwu2"
 C;X2;K"showUI2"
 C;X3;K"Profile"
 C;X4;K-1
@@ -4966,7 +4986,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y255;K"ua1s"
+C;X1;Y256;K"ua1s"
 C;X2;K"sides1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -4986,7 +5006,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y256;K"ua2s"
+C;X1;Y257;K"ua2s"
 C;X2;K"sides2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -5006,7 +5026,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y257;K"usd1"
+C;X1;Y258;K"usd1"
 C;X2;K"spillDist1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -5026,7 +5046,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y258;K"usd2"
+C;X1;Y259;K"usd2"
 C;X2;K"spillDist2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -5046,7 +5066,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y259;K"usr1"
+C;X1;Y260;K"usr1"
 C;X2;K"spillRadius1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -5066,7 +5086,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y260;K"usr2"
+C;X1;Y261;K"usr2"
 C;X2;K"spillRadius2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -5086,7 +5106,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y261;K"ua1p"
+C;X1;Y262;K"ua1p"
 C;X2;K"splashTargs1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -5104,7 +5124,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y262;K"ua2p"
+C;X1;Y263;K"ua2p"
 C;X2;K"splashTargs2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -5122,7 +5142,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y263;K"utc1"
+C;X1;Y264;K"utc1"
 C;X2;K"targCount1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -5142,7 +5162,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y264;K"utc2"
+C;X1;Y265;K"utc2"
 C;X2;K"targCount2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -5162,7 +5182,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y265;K"ua1g"
+C;X1;Y266;K"ua1g"
 C;X2;K"targs1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -5180,7 +5200,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y266;K"ua2g"
+C;X1;Y267;K"ua2g"
 C;X2;K"targs2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -5198,7 +5218,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y267;K"uaen"
+C;X1;Y268;K"uaen"
 C;X2;K"weapsOn"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -5216,7 +5236,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y268;K"ua1w"
+C;X1;Y269;K"ua1w"
 C;X2;K"weapTp1"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -5234,7 +5254,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y269;K"ua2w"
+C;X1;Y270;K"ua2w"
 C;X2;K"weapTp2"
 C;X3;K"UnitWeapons"
 C;X4;K-1
@@ -5252,7 +5272,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K0
-C;X1;Y270;K"ucs1"
+C;X1;Y271;K"ucs1"
 C;X2;K"weapType1"
 C;X3;K"Profile"
 C;X4;K-1
@@ -5270,7 +5290,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y271;K"ucs2"
+C;X1;Y272;K"ucs2"
 C;X2;K"weapType2"
 C;X3;K"Profile"
 C;X4;K-1
@@ -5288,7 +5308,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K1
 C;X24;K0
-C;X1;Y272;K"uabs"
+C;X1;Y273;K"uabs"
 C;X2;K"abilSkinList"
 C;X3;K"Profile"
 C;X4;K-1
@@ -5307,7 +5327,7 @@ C;X19;K1
 C;X20;K0
 C;X22;K0
 C;X24;K1
-C;X1;Y273;K"uhas"
+C;X1;Y274;K"uhas"
 C;X2;K"heroAbilSkinList"
 C;X3;K"Profile"
 C;X4;K-1
