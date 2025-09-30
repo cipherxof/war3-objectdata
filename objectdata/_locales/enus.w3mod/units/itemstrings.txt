@@ -580,9 +580,9 @@ Description=Creates a phantom double.
 Name=Wand of Negation
 Hotkey=N
 Tip=Purchase Wand of Negation
-Ubertip="Dispels all magical effects in a target area. |nContains <wneg,uses> charges. |n|cffffcc00Deals <AIdi,DataB1> damage to summoned units.|r"
-Ubertip:custom,V0="Dispels all magical effects in a target area. |n|cffffcc00Deals <AIdi,DataB1> damage to summoned units.|r"
-Description=Dispels magic in an area.
+Ubertip="Dispels all magical effects on a single target. |nContains <wneg,uses> charges. |n|cffffcc00Deals <AIpw,DataC1> damage to summoned units.|r"
+Ubertip:custom,V0="Dispels all magical effects on a single target. |n|cffffcc00Deals <AIpw,DataC1> damage to summoned units.|r"
+Description=Dispels magic on a single target.
 
 [rdis]
 Name=Rune of Dispel Magic
@@ -1308,7 +1308,7 @@ Description=Reduces Spell damage to Hero.
 Name=Vampiric Potion
 Hotkey=V
 Tip=Purchase Vampiric Potion
-Ubertip="Adds <AIpv,DataA1> bonus damage and a life-stealing attack to the Hero. |nLasts <AIpv,Dur1> seconds."
+Ubertip="Adds <AIpv,DataA1> bonus damage and <AIpv,DataB1,%>% life steal to the Hero. |nLasts <AIpv,Dur1> seconds."
 Description=Damage bonus and life-stealing attack.
 
 [woms]
@@ -1442,7 +1442,7 @@ Description=Reveals invisible units.
 Name=Orb of Slow
 Hotkey=S
 Tip=Purchase Orb of Slow
-Ubertip="Adds <AIsb,DataA1> bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air, and have a chance to slow a target enemy unit's movement speed by <AIos,DataA1,%>% and attack rate by <AIos,DataB1,%>% for <AIos,Dur1> seconds."
+Ubertip="Adds <AIsb,DataA1> bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air, and have a chance to slow a target enemy unit's movement speed by <AIno,DataA1,%>% and attack rate by <AIno,DataB1,%>% for <AIno,Dur1> seconds."
 Description=Attacks can slow enemies.
 
 // Rune of Rebirth
@@ -2006,3 +2006,4 @@ Name=Vine of Purification
 Tip=Purchase Vine of Purification
 Ubertip="This vine hums with energy."
 Description=A magical vine.
+

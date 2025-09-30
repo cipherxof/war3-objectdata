@@ -1,0 +1,200 @@
+[itm1]
+Name=Item Slot 1
+
+[itm2]
+Name=Item Slot 2
+
+[itm3]
+Name=Item Slot 3
+
+[itm4]
+Name=Item Slot 4
+
+[itm5]
+Name=Item Slot 5
+
+[itm6]
+Name=Item Slot 6
+
+[her1]
+Name=First Hero
+
+[her2]
+Name=Second Hero
+
+[her3]
+Name=Third Hero
+
+[QLog]
+Name=Toggle Quest Log
+
+[Menu]
+Name=Toggle Game Menu
+
+[Ally]
+Name=Toggle Allies
+
+[Chat]
+Name=Toggle Chat
+
+[QSav]
+Name=Quick Save
+
+[MEnd]
+Name=End Game Menu
+
+[MOpt]
+Name=Options Menu
+
+[MSav]
+Name=Save Menu
+
+[MLod]
+Name=Load Menu
+
+[MHlp]
+Name=Help Menu
+
+[TMus]
+Name=Toggle Music
+
+[TSFX]
+Name=Toggle SFX
+
+[Ctr1]
+Name=Ctrl Group 1
+
+[Ctr2]
+Name=Ctrl Group 2
+
+[Ctr3]
+Name=Ctrl Group 3
+
+[Ctr4]
+Name=Ctrl Group 4
+
+[Ctr5]
+Name=Ctrl Group 5
+
+[Ctr6]
+Name=Ctrl Group 6
+
+[Ctr7]
+Name=Ctrl Group 7
+
+[Ctr8]
+Name=Ctrl Group 8
+
+[Ctr9]
+Name=Ctrl Group 9
+
+[Ctr0]
+Name=Ctrl Group 10
+
+[sbgp]
+Name=Switch Subgroups
+
+[sidw]
+Name=Select Idle Workers
+
+[mpng]
+Name=Minimap Ping
+
+[TMtr]
+Name=Toggle Minimap Terrain
+
+[alcm]
+Name=Set Ally Color Mode
+
+[TMcd]
+Name=Toggle Minimap Creep Display
+
+[TFmv]
+Name=Toggle Formation Movement
+
+[TAHb]
+Name=Toggle Ally Healthbars
+
+[TEHb]
+Name=Toggle Enemy Healthbars
+
+[ctcr]
+Name=Cycle Town Centers
+
+[clnt]
+Name=Center on Last Notification
+
+[capt]
+Name=Center on Active Portrait
+
+[zmin]
+Name=Zoom In
+
+[zmou]
+Name=Zoom Out
+
+[rezm]
+Name=Reset Zoom Level
+
+[rocl]
+Name=Rotate Camera Left
+
+[rocr]
+Name=Rotate Camera Right
+
+[mvcf]
+Name=Move Camera Forward
+
+[mvcb]
+Name=Move Camera Backward
+
+[mvcl]
+Name=Move Camera Left
+
+[mvcr]
+Name=Move Camera Right
+
+[THer]
+Name=Toggle Heroes Panel
+
+[TSta]
+Name=Toggle Statistics Panel
+
+[TPUQ]
+Name=Toggle Production/Units Queue
+
+[TSel]
+Name=Toggle Selection Panel
+
+[TMap]
+Name=Toggle Minimap Panel
+
+[TToD]
+Name=Toggle Time of Day Indicator
+
+[TAll]
+Name=Toggle All Panels
+
+[SPQM]
+Name=Production Queue Mode
+
+[SULM]
+Name=Units List Mode
+
+[TRpl]
+Name=Toggle Replay Panel
+
+[TPPl]
+Name=Toggle Pause / Play
+
+[InGS]
+Name=Increase Game Speed
+
+[DeGS]
+Name=Decrease Game Speed
+
+[TFoW]
+Name=Toggle Fog of War
+
+[TAuC]
+Name=Toggle Auto Camera

@@ -943,6 +943,11 @@ EditorSuffix= (2)
 Name=Item Purge
 EditorSuffix= (3)
 
+// item purge
+[AIpw]
+Name=Item Purge
+EditorSuffix= (Wand of Negation)
+
 //#RESTNOBETA
 [AItg]
 Name=Item Damage Bonus
@@ -1112,6 +1117,13 @@ Name=Item Attack Heal Reduction Bonus
 Bufftip=Heal Reduction
 Buffubertip="This unit restores health at a reduced rate."
 
+[AIno]
+Name=Slow (Orb of Slow New)
+
+[Bson]
+Bufftip=Orb of Slow
+Buffubertip="This unit is slowed; its movement speed and attack rate are reduced."
+
 //----------------------------------------------------
 // Buffs with no in-game text
 // EditorName is for the Object Editor list only
@@ -1121,3 +1133,5 @@ EditorName=Item Web
 
 [Btrv]
 EditorName=Teleport Reveal
+
+

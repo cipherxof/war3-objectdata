@@ -789,3 +789,6 @@ order=berserk
 
 // Ritual Dagger (Regen)
 [AIg2]
+
+//Orb of Slow new
+[AIno]

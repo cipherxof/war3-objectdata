@@ -100,4 +100,4 @@ Requires=unp1
 [Rupm]
 Art=ReplaceableTextures\CommandButtons\BTNPackBeast.blp
 Buttonpos=3,0
-Requires=utom
+Requires=

@@ -288,7 +288,7 @@ Buffubertip="This unit has Bloodlust; its attack rate and movement speed are inc
 [Aeye]
 Name=Sentry Ward
 Tip=Sentry Ward
-Ubertip="Summons an invisible and immovable ward that provides vision in an area. |nCan see invisible units. |nLasts <Aeye,Dur1> seconds."
+Ubertip="Summons an invisible and immovable ward that provides vision in an area. Wards are spell immune. |nCan see invisible units. |nLasts <Aeye,Dur1> seconds."
 Hotkey=W
 
 [Beye]
@@ -299,7 +299,7 @@ Buffubertip="Summoned units take damage from dispels."
 [Asta]
 Name=Stasis Trap
 Tip=Stasis Trap
-Ubertip="Summons an invisible and immovable ward that stuns enemy land units around it. The trap activates when an enemy land unit approaches and destroys all other stasis wards in its area of effect. |nThe trap lasts <Asta,Dur1> seconds. |nThe stun lasts <Asta,DataD1> seconds."
+Ubertip="Summons an invisible and immovable ward that stuns enemy land units around it. The trap activates when an enemy land unit approaches and destroys all other stasis wards in its area of effect. Wards are spell immune. |nThe trap lasts <Asta,Dur1> seconds. |nThe stun lasts <Asta,DataD1> seconds."
 Hotkey=T
 
 // Stasis Trap trigger buff
@@ -316,7 +316,7 @@ Buffubertip="This unit is stunned by Stasis Trap and cannot move, attack or cast
 [Ahwd]
 Name=Healing Ward
 Tip=Healing Ward
-Ubertip="Summons an immovable ward that heals <Aoar,DataA1,%>% of a nearby friendly non-mechanical unit's hit points per second. |nLasts <Ahwd,Dur1> seconds."
+Ubertip="Summons an immovable ward that heals <Aoar,DataA1,%>% of a nearby friendly non-mechanical unit's hit points per second. Wards are spell immune. |nLasts <Ahwd,Dur1> seconds."
 Hotkey=E
 EditorSuffix= (Witch Doctor)
 

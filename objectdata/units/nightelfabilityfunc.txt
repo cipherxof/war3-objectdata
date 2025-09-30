@@ -139,6 +139,9 @@ Requires=Remg
 Buttonpos=1,2
 
 // Moon Glaive
+[Amgi]
+
+// Moon Glaive
 [Amgr]
 Buttonpos=1,2
 

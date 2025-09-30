@@ -1,3 +1,4 @@
+
 // Vengeance
 [Avng]
 Name=Spirit of Vengeance
@@ -93,14 +94,12 @@ Hotkey=W
 Name=Hardened Skin
 Tip=Hardened Skin
 Ubertip="Reduces all attacks on the Mountain Giant by <Assk,DataC1> damage. Attacks cannot be reduced below <Assk,DataB1> damage."
-Hotkey=K
 
 // Resistant Skin
 [Arsk]
 Name=Resistant Skin
 Tip=Resistant Skin
 Ubertip="Reduces the duration of negative spells and renders the Mountain Giant immune to certain spells."
-Hotkey=E
 
 // Taunt
 [Atau]
@@ -186,7 +185,7 @@ Hotkey=L
 [Amgl]
 Name=Moon Glaive
 Tip=Moon Glaive
-Ubertip="Gives the Huntress the ability to strike additional units with her bouncing glaive attacks."
+Ubertip="Gives the Huntress the ability to strike additional units with her bouncing glaive attacks, and changes their armor type to Heavy."
 
 [Amgr]
 Name=Moon Glaive
@@ -740,6 +739,8 @@ Tip=Well Spring
 Ubertip="Increases the amount of mana that can be stored in Moon Wells by <Rews,base1>, and their rate of mana regeneration by <Rews,base2,%>%."
 EditorSuffix= (Icon)
 
+[Amgi]
+Name=Bouncing Missile Filter
 
 //----------------------------------------------------
 // Buffs with no in-game text
@@ -783,3 +784,5 @@ EditorName=Building Damage - Night Elf Medium
 
 [Xfnl]
 EditorName=Building Damage - Night Elf Large
+
+

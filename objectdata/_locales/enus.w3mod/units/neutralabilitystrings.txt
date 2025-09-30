@@ -713,16 +713,16 @@ Hotkey=B
 [ANdr]
 Name=Life Drain
 Tip=Life Drain - [|cffffcc00Level 1|r],Life Drain - [|cffffcc00Level 2|r],Life Drain - [|cffffcc00Level 3|r]
-Ubertip="Absorbs the life essence of a target enemy unit by taking <ANdr,DataA1> hit points per second from it and giving them to the Dark Ranger. |n|nAlso applies the current rank of the Black Arrow debuff to the target. |nLasts <ANdr,Dur1> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA2> hit points per second from it and giving them to the Dark Ranger. |n|nAlso applies the current rank of the Black Arrow debuff to the target. |nLasts <ANdr,Dur2> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA3> hit points per second from it and giving them to the Dark Ranger. |n|nAlso applies the current rank of the Black Arrow debuff to the target. |nLasts <ANdr,Dur3> seconds."
-Ubertip:custom,V0="Absorbs the life essence of a target enemy unit by taking <ANdr,DataA1> hit points per second from it and giving them to the Dark Ranger. |nLasts <ANdr,Dur1> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA2> hit points per second from it and giving them to the Dark Ranger. |nLasts <ANdr,Dur2> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA3> hit points per second from it and giving them to the Dark Ranger. |nLasts <ANdr,Dur3> seconds."
-Ubertip:custom,V1="Absorbs the life essence of a target enemy unit by taking <ANdr,DataA1> hit points per second from it and giving them to the Dark Ranger. |nLasts <ANdr,Dur1> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA2> hit points per second from it and giving them to the Dark Ranger. |nLasts <ANdr,Dur2> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA3> hit points per second from it and giving them to the Dark Ranger. |nLasts <ANdr,Dur3> seconds."
-Ubertip:melee,V0="Absorbs the life essence of a target enemy unit by taking <ANdr,DataA1> hit points per second from it and giving them to the Dark Ranger. |nLasts <ANdr,Dur1> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA2> hit points per second from it and giving them to the Dark Ranger. |nLasts <ANdr,Dur2> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA3> hit points per second from it and giving them to the Dark Ranger. |nLasts <ANdr,Dur3> seconds."
+Ubertip="Absorbs the life essence of a target enemy unit by taking <ANdr,DataA1> hit points per second from it and giving them to the Dark Ranger, or transfers <ANdr,DataD1> hit points from the Dark Ranger to an ally. |n|nAlso applies the current rank of the Black Arrow debuff to the target. |nLasts <ANdr,Dur1> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA2> hit points per second from it and giving them to the Dark Ranger, or transfers <ANdr,DataD2> hit points from the Dark Ranger to an ally. |n|nAlso applies the current rank of the Black Arrow debuff to the target. |nLasts <ANdr,Dur2> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA3> hit points per second from it and giving them to the Dark Ranger, or transfers <ANdr,DataD3> hit points from the Dark Ranger to an ally. |n|nAlso applies the current rank of the Black Arrow debuff to the target. |nLasts <ANdr,Dur3> seconds."
+Ubertip:custom,V0="Absorbs the life essence of a target enemy unit by taking <ANdr,DataA1> hit points per second from it and giving them to the Dark Ranger, or transfers <ANdr,DataD1> hit points from the Dark Ranger to an ally. |nLasts <ANdr,Dur1> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA2> hit points per second from it and giving them to the Dark Ranger, or transfers <ANdr,DataD2> hit points from the Dark Ranger to an ally. |nLasts <ANdr,Dur2> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA3> hit points per second from it and giving them to the Dark Ranger, or transfers <ANdr,DataD3> hit points from the Dark Ranger to an ally. |nLasts <ANdr,Dur3> seconds."
+Ubertip:custom,V1="Absorbs the life essence of a target enemy unit by taking <ANdr,DataA1> hit points per second from it and giving them to the Dark Ranger, or transfers <ANdr,DataD1> hit points from the Dark Ranger to an ally. |nLasts <ANdr,Dur1> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA2> hit points per second from it and giving them to the Dark Ranger, or transfers <ANdr,DataD2> hit points from the Dark Ranger to an ally. |nLasts <ANdr,Dur2> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA3> hit points per second from it and giving them to the Dark Ranger, or transfers <ANdr,DataD3> hit points from the Dark Ranger to an ally. |nLasts <ANdr,Dur3> seconds."
+Ubertip:melee,V0="Absorbs the life essence of a target enemy unit by taking <ANdr,DataA1> hit points per second from it and giving them to the Dark Ranger, or transfers <ANdr,DataD1> hit points from the Dark Ranger to an ally. |nLasts <ANdr,Dur1> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA2> hit points per second from it and giving them to the Dark Ranger, or transfers <ANdr,DataD2> hit points from the Dark Ranger to an ally. |nLasts <ANdr,Dur2> seconds.","Absorbs the life essence of a target enemy unit by taking <ANdr,DataA3> hit points per second from it and giving them to the Dark Ranger, or transfers <ANdr,DataD3> hit points from the Dark Ranger to an ally. |nLasts <ANdr,Dur3> seconds."
 Hotkey=D
 Researchtip="Learn Life Drain - [|cffffcc00Level %d|r]"
-Researchubertip="Absorbs the life essence of a target enemy unit by taking hit points from it every second and giving them to the Dark Ranger. |n|nLife Drain also applies the current rank of the Black Arrow debuff to the target. |nLasts <ANdr,Dur1> seconds. |n|n|cffffcc00Level 1|r - <ANdr,DataA1> hit point drain per second. |n|cffffcc00Level 2|r - <ANdr,DataA2> hit point drain per second. |n|cffffcc00Level 3|r - <ANdr,DataA3> hit point drain per second." 
-Researchubertip:custom,V0="Absorbs the life essence of a target enemy unit by taking hit points from it every second and giving them to the Dark Ranger. |nLasts <ANdr,Dur1> seconds. |n|n|cffffcc00Level 1|r - <ANdr,DataA1> hit point drain per second. |n|cffffcc00Level 2|r - <ANdr,DataA2> hit point drain per second. |n|cffffcc00Level 3|r - <ANdr,DataA3> hit point drain per second."
-Researchubertip:custom,V1="Absorbs the life essence of a target enemy unit by taking hit points from it every second and giving them to the Dark Ranger. |nLasts <ANdr,Dur1> seconds. |n|n|cffffcc00Level 1|r - <ANdr,DataA1> hit point drain per second. |n|cffffcc00Level 2|r - <ANdr,DataA2> hit point drain per second. |n|cffffcc00Level 3|r - <ANdr,DataA3> hit point drain per second."
-Researchubertip:melee,V0="Absorbs the life essence of a target enemy unit by taking hit points from it every second and giving them to the Dark Ranger. |nLasts <ANdr,Dur1> seconds. |n|n|cffffcc00Level 1|r - <ANdr,DataA1> hit point drain per second. |n|cffffcc00Level 2|r - <ANdr,DataA2> hit point drain per second. |n|cffffcc00Level 3|r - <ANdr,DataA3> hit point drain per second."
+Researchubertip="Absorbs the life essence of a target enemy unit by taking hit points from it every second and giving them to the Dark Ranger, or transfers hit points from the Dark Ranger to an ally. |n|nLife Drain also applies the current rank of the Black Arrow debuff to the target. |nLasts <ANdr,Dur1> seconds. |n|n|cffffcc00Level 1|r - <ANdr,DataA1> hit point drain per second, or transfers <ANdr,DataD1> hit points per second to an ally. |n|cffffcc00Level 2|r - <ANdr,DataA2> hit point drain per second, or transfers <ANdr,DataD2> hit points per second to an ally. |n|cffffcc00Level 3|r - <ANdr,DataA3> hit point drain per second, or transfers <ANdr,DataD3> hit points per second to an ally." 
+Researchubertip:custom,V0="Absorbs the life essence of a target enemy unit by taking hit points from it every second and giving them to the Dark Ranger, or transfers hit points from the Dark Ranger to an ally. |nLasts <ANdr,Dur1> seconds. |n|n|cffffcc00Level 1|r - <ANdr,DataA1> hit point drain per second, or transfers <ANdr,DataD1> hit points per second to an ally. |n|cffffcc00Level 2|r - <ANdr,DataA2> hit point drain per second, or transfers <ANdr,DataD2> hit points per second to an ally. |n|cffffcc00Level 3|r - <ANdr,DataA3> hit point drain per second, or transfers <ANdr,DataD3> hit points per second to an ally."
+Researchubertip:custom,V1="Absorbs the life essence of a target enemy unit by taking hit points from it every second and giving them to the Dark Ranger, or transfers hit points from the Dark Ranger to an ally. |nLasts <ANdr,Dur1> seconds. |n|n|cffffcc00Level 1|r - <ANdr,DataA1> hit point drain per second, or transfers <ANdr,DataD1> hit points per second to an ally. |n|cffffcc00Level 2|r - <ANdr,DataA2> hit point drain per second, or transfers <ANdr,DataD2> hit points per second to an ally. |n|cffffcc00Level 3|r - <ANdr,DataA3> hit point drain per second, or transfers <ANdr,DataD3> hit points per second to an ally."
+Researchubertip:melee,V0="Absorbs the life essence of a target enemy unit by taking hit points from it every second and giving them to the Dark Ranger, or transfers hit points from the Dark Ranger to an ally. |nLasts <ANdr,Dur1> seconds. |n|n|cffffcc00Level 1|r - <ANdr,DataA1> hit point drain per second, or transfers <ANdr,DataD1> hit points per second to an ally. |n|cffffcc00Level 2|r - <ANdr,DataA2> hit point drain per second, or transfers <ANdr,DataD2> hit points per second to an ally. |n|cffffcc00Level 3|r - <ANdr,DataA3> hit point drain per second, or transfers <ANdr,DataD3> hit points per second to an ally."
 Researchhotkey=D
 
 // Life Drain (Creep)
@@ -1428,16 +1428,16 @@ Name=Life Regeneration
 Name=Select Hero
 Tip=Select Hero
 Untip=Deselect Hero
-Hotkey=H
-Unhotkey=H
+Hotkey=J
+Unhotkey=J
 
 // select any unit, for buildings
 [Ane2]
 Name=Select Unit
 Tip=Select Unit
 Untip=Deselect Unit
-Hotkey=U
-Unhotkey=U
+Hotkey=J
+Unhotkey=J
 
 // Inferno
 [ANin]
@@ -1805,7 +1805,7 @@ EditorSuffix=(Neutral Hostile)
 [ACba]
 Name=Brilliance Aura
 Tip=Brilliance Aura
-Ubertip="Gives additional mana regeneration to nearby friendly units of <ACba,DataA1> mana per second."
+Ubertip="Gives additional mana regeneration to nearby friendly units of <ACba,DataA1,.> mana per second."
 EditorSuffix=(Neutral Hostile)
 
 // bash

@@ -795,11 +795,11 @@ Attachmentanimprops=medium
 
 // Mercenary Camp Lord Summer
 [nmer]
-Sellunits=nftb,nfsp,nogm,ngrk
+Sellunits=nftb,nfsp,ngrk,nogm
 
 // Lord Fall
 [nmr2]
-Sellunits=ngnb,ngnw,nomg,ngrk
+Sellunits=ngnb,ngnw,ngrk,nomg
 
 // Lord Winter
 [nmr3]
@@ -815,7 +815,7 @@ Sellunits=ndtp,ndtb,nwlg,nsts
 
 // Felwood
 [nmr6]
-Sellunits=nmfs,nssp,nsts,nsln
+Sellunits=nmfs,nssp,nsln,nsts
 
 // Northrend
 [nmr7]
@@ -892,6 +892,7 @@ Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
 
 // ogre magi
 [nomg]
+Buttonpos=3,0
 Attachmentanimprops=medium
 Specialart=Objects\Spawnmodels\Orc\OrcLargeDeathExplode\OrcLargeDeathExplode.mdl
 
@@ -930,6 +931,7 @@ Specialart=Objects\Spawnmodels\Demon\DemonLargeDeathExplode\DemonLargeDeathExplo
 
 // sludge monstrosity
 [nsln]
+Buttonpos=2,0
 Specialart=Objects\Spawnmodels\Demon\DemonLargeDeathExplode\DemonLargeDeathExplode.mdl
 
 // salamander hatchling
@@ -974,7 +976,7 @@ Specialart=Objects\Spawnmodels\Orc\OrcSmallDeathExplode\OrcSmallDeathExplode.mdl
 
 // satyr shadowdancer
 [nsts]
-Buttonpos=2,0
+Buttonpos=3,0
 Missileart=Abilities\Weapons\BlackKeeperMissile\BlackKeeperMissile.mdl
 Missilearc=0.15
 Missilespeed=1500
@@ -1009,6 +1011,7 @@ Specialart=Objects\Spawnmodels\Demon\DemonLargeDeathExplode\DemonLargeDeathExplo
 
 // spitting spider
 [nssp]
+Buttonpos=1,0
 Missileart=Abilities\Weapons\ChimaeraAcidMissileSmall\ChimaeraAcidMissileSmall.mdl
 Missilearc=0.15
 Missilespeed=1200

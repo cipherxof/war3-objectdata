@@ -91,7 +91,7 @@ Requires=ofrt,ovln
 [Ropm]
 Art=ReplaceableTextures\CommandButtons\BTNPackBeast.blp
 Buttonpos=3,0
-Requires=ovln
+Requires=
 
 [Rowt]
 Art=ReplaceableTextures\CommandButtons\BTNSpiritWalkerAdeptTraining.blp,ReplaceableTextures\CommandButtons\BTNSpiritWalkerMasterTraining.blp

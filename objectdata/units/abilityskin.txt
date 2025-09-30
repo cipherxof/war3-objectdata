@@ -2222,6 +2222,10 @@ Casterattach=origin
 [BIpv]
 skinType=buff
 Buffart=ReplaceableTextures\CommandButtons\BTNPotionOfVampirism.blp
+Targetart=Abilities\Spells\Items\VampiricPotion\VampPotionCaster.mdl
+Targetattach=origin
+Specialart=Abilities\Spells\Undead\VampiricAura\VampiricAuraTarget.mdl
+Specialattach=origin
 
 // Spell Damage Reduction
 [AIsr]
@@ -2355,9 +2359,11 @@ skinType=ability
 UnitSkinID=AIos
 Art=ReplaceableTextures\CommandButtons\BTNOrbofSlowness.blp
 Missileart=Abilities\Weapons\ProcMissile\ProcMissile.mdl
-Targetart=Abilities\Spells\Items\OrbSlow\OrbSlow.mdl
+Targetart=Abilities\Spells\Items\OrbSlow\OrbSlowNew.mdl
 Targetattach=weapon
+Missilehoming=1
 //Specialart=
+
 
 [AIos]
 skinType=ability
@@ -5032,11 +5038,19 @@ Art=ReplaceableTextures\PassiveButtons\PASBTNVorpalBlades.blp
 [Amgl]
 skinType=ability
 Art=ReplaceableTextures\PassiveButtons\PASBTNUpgradeMoonGlaive.blp
+Casterart=Abilities\Spells\NightElf\SpiritOfVengeance\SpiritOfVengeanceBirthMissile.mdl
+Casterattach=weapon,right
+
+// Moon Glaive
+[Amgi]
+skinType=ability
 
 // Moon Glaive
 [Amgr]
 skinType=ability
 Art=ReplaceableTextures\PassiveButtons\PASBTNUpgradeMoonGlaive.blp
+Casterart=Abilities\Spells\NightElf\SpiritOfVengeance\SpiritOfVengeanceBirthMissile.mdl
+Casterattach=weapon,right
 
 // Slow poison
 [Aspo]
@@ -5568,7 +5582,7 @@ Art=ReplaceableTextures\PassiveButtons\PASBTNImprovedBows.blp
 //Passive - nightelf marksmanship (Remk)
 [Aemk]
 skinType=ability
-Art=ReplaceableTextures\CommandButtons\BTNMarksmanship.blp
+Art=ReplaceableTextures\PassiveButtons\PASBTNMarksmanship.blp
 
 //Passive - nightelf well spring (Rews)
 [Aews]
@@ -6411,6 +6425,12 @@ Art=ReplaceableTextures\CommandButtons\BTNAnimateDead.blp
 Researchart=ReplaceableTextures\CommandButtons\BTNAnimateDead.blp
 Specialart=Abilities\Spells\Undead\AnimateDead\AnimateDeadTarget.mdl
 
+[AUa2]
+skinType=ability
+Art=ReplaceableTextures\CommandButtons\BTNAnimateDead.blp
+Researchart=ReplaceableTextures\CommandButtons\BTNAnimateDead.blp
+Specialart=Abilities\Spells\Undead\AnimateDead\AnimateDeadTarget.mdl
+
 [Bpos]
 skinType=buff
 Targetart=Abilities\Spells\Undead\Possession\PossessionTarget.mdl
@@ -7045,4 +7065,23 @@ skinnableID=Aeth
 [Atlp]
 skinType=ability
 skinnableID=Atlp
+
+// item purge (wand of negation)
+[AIpw]
+skinType=ability
+Art=ReplaceableTextures\CommandButtons\BTNEntrapmentWard.blp
+Targetart=Abilities\Spells\Human\DispelMagic\DispelMagicTarget.mdl
+
+//orb of slow buff
+[Bson]
+skinType=buff
+Buffart=ReplaceableTextures\CommandButtons\BTNOrbofSlowness.blp
+Targetart=Abilities\Spells\Items\OrbSlow\OrbOfSlowTarget.mdl
+
+// orb of slow Slow
+[AIno]
+skinType=ability
+Art=ReplaceableTextures\CommandButtons\BTNOrbofSlowness.blp
+Unart=
+Casterart=Abilities\Spells\Human\Slow\SlowCaster.mdl
 
