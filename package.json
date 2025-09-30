@@ -19,9 +19,9 @@
   "author": "Chananya Freiman",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^16.11.4",
+    "@types/node": "^24.6.0",
     "mdx-m3-viewer-th": "^5.13.0",
     "ts-node": "^10.4.0",
-    "typescript": "4.3.5"
+    "typescript": "^5.9.2"
   }
 }
