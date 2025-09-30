@@ -49,7 +49,7 @@ CanDeactivateCorporealForm=1
 CanDeactivateDefend=1
 CanDeactivateDivineShield=0
 CanDeactivateImmolation=1
-CanDeactivateManaFlare=0
+CanDeactivateManaFlare=1
 CanDeactivateManaShield=1
 CanDeactivateMetamorphosis=0
 CanDeactivateRavenForm=1
@@ -181,7 +181,7 @@ DefenseArmor=0.06
 
 // Damage bonus lists: SMALL, MEDIUM, LARGE, FORT, NORMAL, HERO, DIVINE, NONE
 DamageBonusNormal=1.00,1.50,1.00,0.70,1.00,1.00,0.05,1.00
-DamageBonusPierce=2.00,0.75,1.00,0.35,1.00,0.50,0.05,1.50
+DamageBonusPierce=2.00,0.75,0.9,0.35,1.00,0.50,0.05,1.50
 DamageBonusSiege=1.00,0.50,1.00,1.50,1.00,0.50,0.05,1.50
 DamageBonusMagic=1.25,0.75,2.00,0.35,1.00,0.50,0.05,1.00
 DamageBonusChaos=1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00

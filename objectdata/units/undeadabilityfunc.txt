@@ -407,6 +407,12 @@ Buttonpos=3,2
 Researchbuttonpos=3,0
 Order=animatedead
 
+// Animate Dead
+[AUa2]
+Buttonpos=3,2
+Researchbuttonpos=3,0
+Order=animatedead
+
 [BUan]
 
 // Carrion Swarm

@@ -2102,7 +2102,7 @@ Art=ReplaceableTextures\CommandButtons\BTNTownHall.blp
 buildingShadow=ShadowTownhall
 elevPts=4
 skinType=unit
-abilSkinList=Abdl,Argl
+abilSkinList=Abdl,Amic,Argl
 abilSkinList:melee,V0=Abdl,Amic,Argl
 abilSkinList:custom,V0=Abdl,Amic,Argl
 abilSkinList:custom,V1=Abdl,Amic,Argl
@@ -5692,9 +5692,9 @@ occH=0
 [esen]
 Art=ReplaceableTextures\CommandButtons\BTNHuntress.blp
 skinType=unit
-abilSkinList=Aesn,Ashm,Amgl,Aien,Ault
-abilSkinList:melee,V0=Aesn,Ashm,Amgl,Ault
-abilSkinList:custom,V0=Aesn,Ashm,Amgl,Ault
+abilSkinList=Aesn,Ashm,Amgl,Aien,Ault,Amgi
+abilSkinList:melee,V0=Aesn,Ashm,Amgl,Ault,Amgi
+abilSkinList:custom,V0=Aesn,Ashm,Amgl,Ault,Amgi
 skinnableID=esen
 sortUI=c2
 file=units\nightelf\Huntress\Huntress
@@ -6703,7 +6703,7 @@ occH=0
 Art:hd=ReplaceableTextures\CommandButtons\BTNArthasEvil.blp
 Art:sd=ReplaceableTextures\CommandButtons\BTNHeroDeathKnight.blp
 skinType=unit
-heroAbilSkinList=AUdc,AUdp,AUau,AUan
+heroAbilSkinList=AUdc,AUdp,AUau,AUa2
 abilSkinList=AInv
 modelScale:hd=1.05
 modelScale:sd=1
@@ -7784,7 +7784,7 @@ occH=0
 [unec]
 Art=ReplaceableTextures\CommandButtons\BTNNecromancer.blp
 skinType=unit
-abilSkinList=Acri,Arai,Aiun,Auuf,Ausm
+abilSkinList=Acri,Arai,Aiun,Auhf,Ausm
 abilSkinList:melee,V0=Acri,Arai,Auhf
 abilSkinList:custom,V0=Acri,Arai,Auhf
 abilSkinList:custom,V1=Acri,Arai,Auhf,Aiun
@@ -34844,8 +34844,7 @@ occH=0
 
 // malfurionnostag
 [Emns]
-Art:hd=ReplaceableTextures\CommandButtons\BTNMalFurionWithoutStag.blp
-Art:sd=ReplaceableTextures\CommandButtons\BTNFurion.blp
+Art=ReplaceableTextures\CommandButtons\BTNMalFurionWithoutStag.blp
 skinType=unit
 heroAbilSkinList=AEer,AEfn,AEah,AEtq
 abilSkinList=AInv,Ault
@@ -35005,7 +35004,7 @@ shadowOnWater=1
 selCircOnWater=0
 occH=0
 
-// antonidus
+// antonidas
 [Hant]
 Art:hd=ReplaceableTextures\CommandButtons\BTNAntonidas.blp
 Art:sd=ReplaceableTextures\CommandButtons\BTNHeroArchMage.blp
@@ -37123,7 +37122,7 @@ portrait:hd=Units\Undead\Detheroc\Detheroc_portrait
 Art:hd=ReplaceableTextures\CommandButtons\BTNArthasEvil.blp
 Art:sd=ReplaceableTextures\CommandButtons\BTNHeroDeathKnight.blp
 skinType=unit
-heroAbilSkinList=AUdc,AUdp,AUau,AUan
+heroAbilSkinList=AUdc,AUdp,AUau,AUa2
 abilSkinList=AInv
 modelScale:hd=1.05
 modelScale:sd=1
@@ -39604,7 +39603,8 @@ sortUI=z2
 file:hd=Units\Creeps\HeroTinkerGazlowe\HeroTinkerGazlowe
 file:sd=units\creeps\GoblinSapper\GoblinSapper
 fileVerFlags=0
-unitSound=GoblinSapper
+unitSound:sd=GoblinSapper
+unitSound:hd=HeroTinker
 tilesetSpecific=0
 special=1
 campaign=1
@@ -46889,6 +46889,7 @@ file:hd=Units\NightElf\HeroFemaleDemonHunter\HeroFemaleDemonHunter
 file:sd=Units\NightElf\HeroFemaleDemonHunter\HeroFemaleDemonHunter
 modelScale:hd=1.25
 unitSound=HeroFemaleDemonHunter
+portrait:sd=Units\NightElf\HeroFemaleDemonHunter\HeroFemaleDemonHunter_portrait
 portrait:hd=Units\NightElf\HeroFemaleDemonHunter\HeroFemaleDemonHunter_portrait
 
 // Maiev skin
@@ -46977,7 +46978,7 @@ modelScale:sd=1
 red=255
 green=255
 blue=255
-portrait:sd=units\undead\HeroLichCIN\HeroLichCIN
+portrait:sd=units\undead\HeroLichCIN\HeroLichCIN_portrait
 portrait:hd=units\undead\HeroLichCIN\HeroLichCIN_portrait
 
 // Balnazzar skin
@@ -47211,7 +47212,7 @@ modelScale:hd=1
 file:hd=Units\Other\HighElfArchMage\HighElfArchMage
 portrait:hd=Units\Other\HighElfArchMage\HighElfArchMage_portrait
 
-// Antonidus skin
+// Antonidas skin
 [Haan]
 skinType=unit
 skinnableID=Hamg
@@ -47429,7 +47430,7 @@ skinType=unit
 skinnableID=Ntin
 Art:hd=ReplaceableTextures\CommandButtons\BTNEngineerGazlowe.blp
 file:hd=Units\Creeps\HeroTinkerGazlowe\HeroTinkerGazlowe
-unitSound=GoblinSapper
+unitSound=HeroTinker
 walk:sd=150
 walk:hd=270
 run:sd=150
@@ -47462,3 +47463,39 @@ walk:hd=250
 run:sd=210
 run:hd=250
 
+// Ghost Keeper Of The Grove
+[Ekgh]
+skinType=unit
+skinnableID=Ekee
+Art=ReplaceableTextures\CommandButtons\BTNKeeperGhostBlue.blp
+modelScale:hd=1.2
+modelScale:sd=1
+file=units\nightelf\HeroKeeperoftheGroveGhost\HeroKeeperoftheGroveGhost
+
+// Ghostly Antonidas
+[Haga]
+skinType=unit
+skinnableID=Hamg
+Art=ReplaceableTextures\CommandButtons\BTNGhostMage.blp
+file=units\other\HeroArchMageGhost\HeroArchMageGhost
+modelScale:hd=0.95
+modelScale:sd=1
+legacyModelScale=1
+
+// Jaina
+[Haja]
+skinType=unit
+skinnableID=Hamg
+Art=ReplaceableTextures\CommandButtons\BTNJaina.blp
+file=units\human\Jaina\Jaina
+unitSound=Jaina
+walk:sd=400
+walk:hd=270
+run:sd=400
+run:hd=270
+modelScale:hd=1.15
+modelScale:sd=1
+shadowW=140
+shadowH=140
+shadowX=70
+shadowY=70

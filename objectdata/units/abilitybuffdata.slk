@@ -1,5 +1,5 @@
 ID;PWXL;N;E
-B;X9;Y483;D0
+B;X9;Y484;D0
 C;X1;Y1;K"alias"
 C;X2;K"code"
 C;X3;K"comments"
@@ -2163,6 +2163,15 @@ C;X9;K1
 C;X1;Y241;K"BIhm"
 C;X2;K"BIhm"
 C;X3;K"HealMultiplier"
+C;X4;K0
+C;X5;K1
+C;X6;K1
+C;X7;K"item"
+C;X8;K"other"
+C;X9;K1
+C;X1;Y242;K"Bson"
+C;X2;K"Bson"
+C;X3;K"OrbOfSlow"
 C;X4;K0
 C;X5;K1
 C;X6;K1

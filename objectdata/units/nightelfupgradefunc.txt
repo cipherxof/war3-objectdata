@@ -120,4 +120,4 @@ Requires=etoe
 [Repm]
 Art=ReplaceableTextures\CommandButtons\BTNPackBeast.blp
 Buttonpos=3,0
-Requires=eden
+Requires=

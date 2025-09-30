@@ -546,6 +546,17 @@ Researchtip="Learn Animate Dead"
 Researchubertip="Raises <AUan,DataA1> dead units in an area to fight for the Death Knight for <AUan,Dur1> seconds."
 Researchhotkey=D
 
+// Animate Dead (new)
+[AUa2]
+Name=Animate Dead
+Tip=Animate Dead
+EditorSuffix= (New)
+Ubertip="Raises <AUa2,DataA1> dead units in an area to fight for the Death Knight for <AUa2,Dur1> seconds."
+Hotkey=D
+Researchtip="Learn Animate Dead"
+Researchubertip="Raises <AUa2,DataA1> dead units in an area to fight for the Death Knight for <AUa2,Dur1> seconds."
+Researchhotkey=D
+
 [BUan]
 Bufftip=Animate Dead
 Buffubertip="Summoned units take damage from dispels."

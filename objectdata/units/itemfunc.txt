@@ -726,6 +726,8 @@ Buttonpos=3,0
 
 // Orb of Slow
 [oslo]
+Buttonpos=0,2
+Requires=hcas
 Art=ReplaceableTextures\CommandButtons\BTNOrbofSlowness.blp
 
 // staff of negation

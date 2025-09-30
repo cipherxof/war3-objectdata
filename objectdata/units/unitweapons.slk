@@ -433,7 +433,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,tree,wall,enemy,neutral"
+C;X32;K"ground,structure,debris,tree,wall,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -500,7 +500,7 @@ C;X28;K35
 C;X29;K50
 C;X30;K0.3
 C;X31;K0.1
-C;X32;K"ground,structure,debris,tree,wall,enemy,neutral"
+C;X32;K"ground,structure,debris,tree,wall,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -701,7 +701,7 @@ C;X28;K" - "
 C;X29;K" - "
 C;X30;K"-"
 C;X31;K"-"
-C;X32;K"ground,structure,enemy,debris"
+C;X32;K"ground,structure,enemy,debris,ward"
 C;X33;K1
 C;X34;K0.2
 C;X35;K0
@@ -1036,7 +1036,7 @@ C;X28;K100
 C;X29;K200
 C;X30;K0.4
 C;X31;K0.1
-C;X32;K"ground,structure,debris,tree,wall"
+C;X32;K"ground,structure,debris,tree,wall,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -1236,7 +1236,7 @@ C;X28;K66
 C;X29;K125
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,air,enemy"
+C;X32;K"ground,structure,debris,air,enemy,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -2307,7 +2307,7 @@ C;X28;K100
 C;X29;K125
 C;X30;K0.5
 C;X31;K0.1
-C;X32;K"ground,structure,debris,tree,wall,notself"
+C;X32;K"ground,structure,debris,tree,wall,notself,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -3379,7 +3379,7 @@ C;X28;K50
 C;X29;K150
 C;X30;K0.4
 C;X31;K0.25
-C;X32;K"ground,structure,debris,tree,wall"
+C;X32;K"ground,structure,debris,tree,wall,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -3446,7 +3446,7 @@ C;X28;K35
 C;X29;K50
 C;X30;K0.3
 C;X31;K0.1
-C;X32;K"ground,structure,debris,tree,wall,enemy,neutral"
+C;X32;K"ground,structure,debris,tree,wall,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -4317,7 +4317,7 @@ C;X28;K75
 C;X29;K150
 C;X30;K0.4
 C;X31;K0.2
-C;X32;K"ground,air,structure,enemy"
+C;X32;K"ground,air,structure,enemy,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -5992,7 +5992,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,air,enemy"
+C;X32;K"ground,structure,debris,air,enemy,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -6327,7 +6327,7 @@ C;X28;K50
 C;X29;K150
 C;X30;K0.4
 C;X31;K0.25
-C;X32;K"ground,structure,debris,wall"
+C;X32;K"ground,structure,debris,wall,ward"
 C;X33;K1
 C;X34;K0.2
 C;X35;K0
@@ -6357,7 +6357,7 @@ C;X58;K50
 C;X59;K150
 C;X60;K0.4
 C;X61;K0.25
-C;X62;K"ground,structure,debris,wall,tree"
+C;X62;K"ground,structure,debris,wall,tree,ward"
 C;X63;K1
 C;X64;K0.2
 C;X65;K0
@@ -6394,7 +6394,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,tree,wall,enemy,neutral"
+C;X32;K"ground,structure,debris,tree,wall,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -6491,7 +6491,7 @@ C;X58;K100
 C;X59;K200
 C;X60;K0.5
 C;X61;K0.1
-C;X62;K"ground,debris,enemy"
+C;X62;K"ground,debris,enemy,ward"
 C;X63;K1
 C;X64;K0
 C;X65;K0
@@ -6595,7 +6595,7 @@ C;X28;K35
 C;X29;K50
 C;X30;K0.3
 C;X31;K0.1
-C;X32;K"ground,structure,debris,tree,wall,enemy,neutral"
+C;X32;K"ground,structure,debris,tree,wall,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -6981,7 +6981,7 @@ C;X12;K"-"
 C;X13;K250
 C;X14;K"normal"
 C;X15;K"normal"
-C;X16;K1.75
+C;X16;K1.65
 C;X17;K"-"
 C;X18;K1
 C;X19;K3
@@ -7004,7 +7004,7 @@ C;X35;K0
 C;X36;K0
 C;X37;K"-"
 C;X38;K15
-C;X39;K9.14285714285714
+C;X39;K9.6969696969697
 C;X40;K"_"
 C;X41;K"-"
 C;X42;K"-"
@@ -7265,7 +7265,7 @@ C;X28;K" - "
 C;X29;K" - "
 C;X30;K"-"
 C;X31;K"-"
-C;X32;K"ground,structure,debris,enemy"
+C;X32;K"ground,debris,enemy,ward"
 C;X33;K2
 C;X34;K0.5
 C;X35;K0
@@ -8434,7 +8434,7 @@ C;X58;K75
 C;X59;K125
 C;X60;K0.15
 C;X61;K0.05
-C;X62;K"ground,structure,debris,wall,enemy,neutral"
+C;X62;K"ground,structure,debris,wall,enemy,neutral,ward"
 C;X63;K1
 C;X64;K0
 C;X65;K0
@@ -8940,7 +8940,7 @@ C;X28;K1
 C;X29;K1
 C;X30;K"-"
 C;X31;K"-"
-C;X32;K"ground,air,structure,debris,enemy"
+C;X32;K"ground,air,structure,debris,enemy,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -9455,7 +9455,7 @@ C;X7;K"-"
 C;X8;K0.5
 C;X9;K0.4
 C;X10;K"ground,structure,debris,item,ward"
-C;X11;K300
+C;X11;K375
 C;X12;K"-"
 C;X13;K250
 C;X14;K"magic"
@@ -9476,7 +9476,7 @@ C;X28;K50
 C;X29;K200
 C;X30;K0.2
 C;X31;K0.1
-C;X32;K"ground,air,structure,debris,enemy"
+C;X32;K"ground,structure,debris,enemy,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -9485,7 +9485,7 @@ C;X37;K"high"
 C;X38;K41
 C;X39;K34.6666666666667
 C;X40;K"air"
-C;X41;K300
+C;X41;K375
 C;X42;K"-"
 C;X43;K250
 C;X44;K"magic"
@@ -9501,12 +9501,12 @@ C;X53;K89
 C;X54;K94
 C;X55;K0.5
 C;X56;K0.55
-C;X57;K"-"
-C;X58;K"-"
-C;X59;K"-"
-C;X60;K"-"
-C;X61;K"-"
-C;X62;K"_"
+C;X57;K25
+C;X58;K50
+C;X59;K200
+C;X60;K0.2
+C;X61;K0.1
+C;X62;K"air,enemy"
 C;X63;K1
 C;X64;K0
 C;X65;K0
@@ -9598,11 +9598,11 @@ C;X16;K1.3
 C;X17;K"-"
 C;X18;K2
 C;X19;K2
-C;X20;K10
+C;X20;K9
 C;X21;K"-"
-C;X22;K12
-C;X23;K13
-C;X24;K14
+C;X22;K11
+C;X23;K12
+C;X24;K13
 C;X25;K0.39
 C;X26;K0.44
 C;X27;K" - "
@@ -9616,8 +9616,8 @@ C;X34;K0
 C;X35;K0
 C;X36;K0
 C;X37;K"-"
-C;X38;K"-"
-C;X39;K10
+C;X38;K10
+C;X39;K9.23076923076923
 C;X40;K"tree"
 C;X41;K66
 C;X42;K"-"
@@ -9811,7 +9811,7 @@ C;X28;K50
 C;X29;K150
 C;X30;K0.4
 C;X31;K0.25
-C;X32;K"ground,structure,debris,tree,wall"
+C;X32;K"ground,structure,debris,tree,wall,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -10280,7 +10280,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,tree,wall,enemy,neutral"
+C;X32;K"ground,structure,debris,tree,wall,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -11269,7 +11269,7 @@ C;X12;K"-"
 C;X13;K250
 C;X14;K"pierce"
 C;X15;K"missile"
-C;X16;K1.3
+C;X16;K1.15
 C;X17;K"-"
 C;X18;K1
 C;X19;K2
@@ -11292,7 +11292,7 @@ C;X35;K0
 C;X36;K0
 C;X37;K"low"
 C;X38;K11
-C;X39;K7.30769230769231
+C;X39;K8.26086956521739
 C;X40;K"_"
 C;X41;K"-"
 C;X42;K"-"
@@ -11553,7 +11553,7 @@ C;X28;K" - "
 C;X29;K" - "
 C;X30;K"-"
 C;X31;K"-"
-C;X32;K"ground"
+C;X32;K"ground,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -12893,7 +12893,7 @@ C;X28;K75
 C;X29;K125
 C;X30;K0.3
 C;X31;K0.15
-C;X32;K"ground,air,structure,debris,enemy"
+C;X32;K"ground,air,structure,debris,enemy,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -12960,7 +12960,7 @@ C;X28;K125
 C;X29;K175
 C;X30;K0.4
 C;X31;K0.25
-C;X32;K"ground,air,structure,debris,enemy"
+C;X32;K"ground,air,structure,debris,enemy,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -13161,7 +13161,7 @@ C;X28;K50
 C;X29;K75
 C;X30;K0
 C;X31;K0
-C;X32;K"ground,air,structure,debris,enemy"
+C;X32;K"ground,air,structure,debris,enemy,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -13228,7 +13228,7 @@ C;X28;K50
 C;X29;K75
 C;X30;K0
 C;X31;K0
-C;X32;K"ground,air,structure,debris,enemy"
+C;X32;K"ground,air,structure,debris,enemy,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -13362,7 +13362,7 @@ C;X28;K150
 C;X29;K225
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground"
+C;X32;K"ground,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -13429,7 +13429,7 @@ C;X28;K" - "
 C;X29;K" - "
 C;X30;K"-"
 C;X31;K"-"
-C;X32;K"ground"
+C;X32;K"ground,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -13496,7 +13496,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris"
+C;X32;K"ground,structure,debris,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -14568,7 +14568,7 @@ C;X28;K" - "
 C;X29;K" - "
 C;X30;K"-"
 C;X31;K"-"
-C;X32;K"ground"
+C;X32;K"ground,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -15037,7 +15037,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris"
+C;X32;K"ground,structure,debris,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -15104,7 +15104,7 @@ C;X28;K150
 C;X29;K225
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground"
+C;X32;K"ground,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -15238,7 +15238,7 @@ C;X28;K" - "
 C;X29;K" - "
 C;X30;K"-"
 C;X31;K"-"
-C;X32;K"ground"
+C;X32;K"ground,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -16642,7 +16642,7 @@ C;X28;K50
 C;X29;K75
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"enemy,ground"
+C;X32;K"enemy,ground,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -16709,7 +16709,7 @@ C;X28;K50
 C;X29;K75
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"enemy,ground"
+C;X32;K"enemy,ground,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -17044,7 +17044,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,air,enemy"
+C;X32;K"ground,structure,debris,air,enemy,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -17111,7 +17111,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,air,enemy"
+C;X32;K"ground,structure,debris,air,enemy,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -17178,7 +17178,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,air,enemy"
+C;X32;K"ground,structure,debris,air,enemy,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -17379,7 +17379,7 @@ C;X28;K100
 C;X29;K200
 C;X30;K0.4
 C;X31;K0.2
-C;X32;K"ground,structure,debris,air,notself"
+C;X32;K"ground,structure,debris,air,notself,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -17580,7 +17580,7 @@ C;X28;K150
 C;X29;K225
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,air,enemy,neutral"
+C;X32;K"ground,air,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -17716,7 +17716,7 @@ C;X28;K150
 C;X29;K225
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,air,enemy,neutral"
+C;X32;K"ground,air,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -19929,7 +19929,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris"
+C;X32;K"ground,structure,debris,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -20063,7 +20063,7 @@ C;X28;K" - "
 C;X29;K" - "
 C;X30;K"-"
 C;X31;K"-"
-C;X32;K"ground"
+C;X32;K"ground,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -20386,11 +20386,11 @@ C;X16;K1.8
 C;X17;K"-"
 C;X18;K1
 C;X19;K4
-C;X20;K6
+C;X20;K8
 C;X21;K"-"
-C;X22;K7
-C;X23;K8.5
-C;X24;K10
+C;X22;K9
+C;X23;K10.5
+C;X24;K12
 C;X25;K0.53
 C;X26;K0.47
 C;X27;K" - "
@@ -20405,7 +20405,7 @@ C;X35;K0
 C;X36;K0
 C;X37;K"low"
 C;X38;K18
-C;X39;K4.72222222222222
+C;X39;K5.83333333333333
 C;X40;K"_"
 C;X41;K"-"
 C;X42;K"-"
@@ -20599,7 +20599,7 @@ C;X28;K150
 C;X29;K225
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,air"
+C;X32;K"ground,air,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -21001,7 +21001,7 @@ C;X28;K150
 C;X29;K225
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,air,enemy,neutral"
+C;X32;K"ground,air,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -21068,7 +21068,7 @@ C;X28;K150
 C;X29;K225
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,air,enemy,neutral"
+C;X32;K"ground,air,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -21202,7 +21202,7 @@ C;X28;K150
 C;X29;K225
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,air,enemy,neutral"
+C;X32;K"ground,air,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -22663,12 +22663,12 @@ C;X15;K"msplash"
 C;X16;K1.5
 C;X17;K"-"
 C;X18;K1
-C;X19;K8
+C;X19;K2
 C;X20;K14
 C;X21;K"-"
 C;X22;K15
-C;X23;K18.5
-C;X24;K22
+C;X23;K15.5
+C;X24;K16
 C;X25;K0.5
 C;X26;K0.56
 C;X27;K75
@@ -22676,14 +22676,14 @@ C;X28;K150
 C;X29;K225
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,air,enemy,neutral"
+C;X32;K"ground,air,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
 C;X36;K0
-C;X37;K"low"
-C;X38;K33
-C;X39;K12.3333333333333
+C;X37;K"high"
+C;X38;K11
+C;X39;K10.3333333333333
 C;X40;K"_"
 C;X41;K"-"
 C;X42;K"-"
@@ -24150,7 +24150,7 @@ C;X28;K150
 C;X29;K225
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground"
+C;X32;K"ground,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -26026,7 +26026,7 @@ C;X28;K50
 C;X29;K75
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"enemy,ground"
+C;X32;K"enemy,ground,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -26093,7 +26093,7 @@ C;X28;K50
 C;X29;K75
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"enemy,ground"
+C;X32;K"enemy,ground,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -26160,7 +26160,7 @@ C;X28;K50
 C;X29;K75
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"enemy,ground"
+C;X32;K"enemy,ground,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -26897,7 +26897,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris"
+C;X32;K"ground,structure,debris,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -28694,11 +28694,11 @@ C;X16;K1.8
 C;X17;K"-"
 C;X18;K1
 C;X19;K8
-C;X20;K20
+C;X20;K19
 C;X21;K"-"
-C;X22;K21
-C;X23;K24.5
-C;X24;K28
+C;X22;K20
+C;X23;K23.5
+C;X24;K27
 C;X25;K0.5
 C;X26;K0.64
 C;X27;K50
@@ -28706,14 +28706,14 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,air,enemy,neutral"
+C;X32;K"ground,structure,debris,air,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
 C;X36;K0
 C;X37;K"low"
 C;X38;K33
-C;X39;K13.6111111111111
+C;X39;K13.0555555555556
 C;X40;K"_"
 C;X41;K"-"
 C;X42;K"-"
@@ -28773,7 +28773,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,air,enemy,neutral"
+C;X32;K"ground,structure,debris,air,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -28974,7 +28974,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,air,enemy,neutral"
+C;X32;K"ground,structure,debris,air,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -29041,7 +29041,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,air,enemy,neutral"
+C;X32;K"ground,structure,debris,air,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -30582,7 +30582,7 @@ C;X28;K150
 C;X29;K225
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,air,enemy,neutral"
+C;X32;K"ground,air,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -30716,7 +30716,7 @@ C;X28;K150
 C;X29;K225
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,air,enemy,neutral"
+C;X32;K"ground,air,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -32379,11 +32379,11 @@ C;X16;K1.8
 C;X17;K"-"
 C;X18;K1
 C;X19;K4
-C;X20;K6
+C;X20;K8
 C;X21;K"-"
-C;X22;K7
-C;X23;K8.5
-C;X24;K10
+C;X22;K9
+C;X23;K10.5
+C;X24;K12
 C;X25;K0.3
 C;X26;K0.3
 C;X27;K" - "
@@ -32398,7 +32398,7 @@ C;X35;K0
 C;X36;K0
 C;X37;K"low"
 C;X38;K18
-C;X39;K4.72222222222222
+C;X39;K5.83333333333333
 C;X40;K"_"
 C;X41;K"-"
 C;X42;K"-"
@@ -42173,7 +42173,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,air"
+C;X32;K"ground,structure,debris,air,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -42307,7 +42307,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,air"
+C;X32;K"ground,structure,debris,air,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -42441,7 +42441,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,air"
+C;X32;K"ground,structure,debris,air,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -45925,7 +45925,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,air,enemy"
+C;X32;K"ground,structure,debris,air,enemy,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -46997,7 +46997,7 @@ C;X28;K50
 C;X29;K150
 C;X30;K0.4
 C;X31;K0.25
-C;X32;K"ground,structure,debris,tree,wall"
+C;X32;K"ground,structure,debris,tree,wall,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -48404,7 +48404,7 @@ C;X28;K125
 C;X29;K200
 C;X30;K0.2
 C;X31;K0.05
-C;X32;K"ground,air,enemy,neutral"
+C;X32;K"ground,air,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -49263,11 +49263,11 @@ C;X16;K1.8
 C;X17;K"-"
 C;X18;K1
 C;X19;K10
-C;X20;K27
+C;X20;K26
 C;X21;K"-"
-C;X22;K28
-C;X23;K32.5
-C;X24;K37
+C;X22;K27
+C;X23;K31.5
+C;X24;K36
 C;X25;K0.6
 C;X26;K0.7
 C;X27;K" - "
@@ -49282,7 +49282,7 @@ C;X35;K0
 C;X36;K0
 C;X37;K"low"
 C;X38;K40
-C;X39;K18.0555555555556
+C;X39;K17.5
 C;X40;K"_"
 C;X41;K"-"
 C;X42;K"-"
@@ -49878,7 +49878,7 @@ C;X28;K150
 C;X29;K250
 C;X30;K0.5
 C;X31;K0.25
-C;X32;K"ground,structure,debris,tree,wall,enemy,neutral"
+C;X32;K"ground,structure,debris,tree,wall,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -50548,7 +50548,7 @@ C;X28;K50
 C;X29;K200
 C;X30;K0.2
 C;X31;K0.1
-C;X32;K"ground,air,structure,debris,enemy"
+C;X32;K"ground,air,structure,debris,enemy,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -50749,7 +50749,7 @@ C;X28;K35
 C;X29;K50
 C;X30;K0.3
 C;X31;K0.1
-C;X32;K"ground,structure,debris,tree,wall,enemy,neutral"
+C;X32;K"ground,structure,debris,tree,wall,enemy,neutral,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -51285,7 +51285,7 @@ C;X28;K100
 C;X29;K125
 C;X30;K0.5
 C;X31;K0.1
-C;X32;K"ground,structure,debris,tree,wall,notself"
+C;X32;K"ground,structure,debris,tree,wall,notself,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -51352,7 +51352,7 @@ C;X28;K100
 C;X29;K125
 C;X30;K0.5
 C;X31;K0.1
-C;X32;K"ground,structure,debris,tree,wall,notself"
+C;X32;K"ground,structure,debris,tree,wall,notself,ward"
 C;X33;K1
 C;X34;K0
 C;X35;K0
@@ -51516,7 +51516,7 @@ C;X58;K75
 C;X59;K125
 C;X60;K0.5
 C;X61;K0.1
-C;X62;K"ground,structure,debris,tree,wall"
+C;X62;K"ground,structure,debris,tree,wall,ward"
 C;X63;K1
 C;X64;K0
 C;X65;K0

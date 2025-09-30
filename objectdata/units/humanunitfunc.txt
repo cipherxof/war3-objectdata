@@ -107,7 +107,7 @@ Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
 
 // blood elf dragon hawk 
 [hdhw]
-Requires=hvlt
+Requires=
 Buttonpos=0,0
 Missileart=Abilities\Weapons\DragonHawkMissile\DragonHawkMissile.mdl
 Missilearc=0.15
@@ -323,7 +323,7 @@ Attachmentanimprops=large
 // Arcane Vault 
 [hvlt]
 Buttonpos=2,2
-Makeitems=sreg,mcri,plcl,phea,pman,stwp,tsct,ofr2,ssan
+Makeitems=sreg,mcri,plcl,phea,pman,stwp,tsct,oslo,ssan
 Specialart=Objects\Spawnmodels\Human\HCancelDeath\HCancelDeath.mdl
 Attachmentanimprops=medium
 

@@ -1,5 +1,5 @@
 ID;PWXL;N;E
-B;X99;Y843;D0
+B;X99;Y847;D0
 C;X1;Y1;K"alias"
 C;X2;K"code"
 C;X3;K"comments"
@@ -999,7 +999,7 @@ C;X15;K"_"
 C;X16;K0
 C;X17;K60
 C;X18;K60
-C;X19;K3
+C;X19;K5
 C;X20;K80
 C;X21;K1000
 C;X22;K128
@@ -1017,7 +1017,7 @@ C;X36;K"_"
 C;X37;K"-"
 C;X38;K60
 C;X39;K60
-C;X40;K3
+C;X40;K5
 C;X41;K80
 C;X42;K1000
 C;X43;K128
@@ -1035,7 +1035,7 @@ C;X57;K"_"
 C;X58;K"-"
 C;X59;K60
 C;X60;K60
-C;X61;K3
+C;X61;K5
 C;X62;K80
 C;X63;K1000
 C;X64;K128
@@ -1173,7 +1173,7 @@ C;X15;K"air,ground,nonsapper,organic"
 C;X16;K0
 C;X17;K12
 C;X18;K4
-C;X19;K0
+C;X19;K4
 C;X20;K75
 C;X21;K"-"
 C;X22;K800
@@ -1191,7 +1191,7 @@ C;X36;K"air,ground,nonsapper,organic"
 C;X37;K"-"
 C;X38;K15
 C;X39;K5
-C;X40;K0
+C;X40;K2
 C;X41;K60
 C;X42;K"-"
 C;X43;K800
@@ -1261,7 +1261,7 @@ C;X16;K0.8
 C;X17;K9
 C;X18;K2.67
 C;X19;K10
-C;X20;K135
+C;X20;K125
 C;X21;K200
 C;X22;K800
 C;X23;K15
@@ -1280,7 +1280,7 @@ C;X37;K0.8
 C;X38;K9
 C;X39;K2.67
 C;X40;K10
-C;X41;K135
+C;X41;K125
 C;X42;K200
 C;X43;K800
 C;X44;K26.666
@@ -1299,7 +1299,7 @@ C;X58;K0.8
 C;X59;K9
 C;X60;K2.67
 C;X61;K10
-C;X62;K135
+C;X62;K125
 C;X63;K200
 C;X64;K800
 C;X65;K36.666
@@ -1351,9 +1351,9 @@ C;X15;K"air,ground,organic,notself"
 C;X16;K0
 C;X17;K6
 C;X18;K6
-C;X19;K6
-C;X20;K10
-C;X21;K800
+C;X19;K8
+C;X20;K25
+C;X21;K700
 C;X22;K600
 C;X23;K0
 C;X24;K15
@@ -1369,9 +1369,9 @@ C;X36;K"air,ground,organic,notself"
 C;X37;K0
 C;X38;K6
 C;X39;K6
-C;X40;K6
-C;X41;K10
-C;X42;K800
+C;X40;K8
+C;X41;K25
+C;X42;K700
 C;X43;K600
 C;X44;K0
 C;X45;K25
@@ -1387,9 +1387,9 @@ C;X57;K"air,ground,organic,notself"
 C;X58;K0
 C;X59;K6
 C;X60;K6
-C;X61;K6
-C;X62;K10
-C;X63;K800
+C;X61;K8
+C;X62;K25
+C;X63;K700
 C;X64;K600
 C;X65;K0
 C;X66;K40
@@ -2043,18 +2043,18 @@ C;X11;K3
 C;X12;K1
 C;X13;K0
 C;X14;K0
-C;X15;K"air,ground,organic"
+C;X15;K"air,ground,organic,notself"
 C;X16;K0
 C;X17;K8
 C;X18;K8
 C;X19;K8
-C;X20;K50
+C;X20;K25
 C;X21;K800
 C;X22;K500
 C;X23;K30
 C;X24;K0
 C;X25;K1
-C;X26;K0
+C;X26;K30
 C;X27;K0
 C;X28;K0
 C;X29;K0
@@ -2062,18 +2062,18 @@ C;X30;K0
 C;X31;K0
 C;X32;K1
 C;X34;K"Bdcb,Bdcl,Bdcm,Bdtb,Bdtl,Bdtm,Bdbb,Bdbl,Bdbm"
-C;X36;K"air,ground,organic"
+C;X36;K"air,ground,organic,notself"
 C;X37;K0
 C;X38;K8
 C;X39;K8
 C;X40;K8
-C;X41;K50
+C;X41;K25
 C;X42;K800
 C;X43;K500
 C;X44;K45
 C;X45;K0
 C;X46;K1
-C;X47;K0
+C;X47;K45
 C;X48;K0
 C;X49;K0
 C;X50;K0
@@ -2081,18 +2081,18 @@ C;X51;K0
 C;X52;K0
 C;X53;K1
 C;X55;K"Bdcb,Bdcl,Bdcm,Bdtb,Bdtl,Bdtm,Bdbb,Bdbl,Bdbm"
-C;X57;K"air,ground,organic"
+C;X57;K"air,ground,organic,notself"
 C;X58;K0
 C;X59;K8
 C;X60;K8
 C;X61;K8
-C;X62;K50
+C;X62;K25
 C;X63;K800
 C;X64;K500
 C;X65;K60
 C;X66;K0
 C;X67;K1
-C;X68;K0
+C;X68;K60
 C;X69;K0
 C;X70;K0
 C;X71;K0
@@ -2100,12 +2100,12 @@ C;X72;K0
 C;X73;K0
 C;X74;K1
 C;X76;K"Bdcb,Bdcl,Bdcm,Bdtb,Bdtl,Bdtm,Bdbb,Bdbl,Bdbm"
-C;X78;K"air,ground,organic"
+C;X78;K"air,ground,organic,notself"
 C;X79;K0
 C;X80;K8
 C;X81;K8
 C;X82;K8
-C;X83;K50
+C;X83;K25
 C;X84;K800
 C;X85;K500
 C;X86;K60
@@ -2250,7 +2250,7 @@ C;X42;K900
 C;X43;K400
 C;X44;K6
 C;X45;K0
-C;X46;K0
+C;X46;K1
 C;X47;K"-"
 C;X48;K"-"
 C;X49;K"-"
@@ -2269,7 +2269,7 @@ C;X63;K900
 C;X64;K400
 C;X65;K6
 C;X66;K0
-C;X67;K0
+C;X67;K1
 C;X68;K"-"
 C;X69;K"-"
 C;X70;K"-"
@@ -2288,7 +2288,7 @@ C;X84;K900
 C;X85;K400
 C;X86;K6
 C;X87;K0
-C;X88;K0
+C;X88;K1
 C;X89;K"-"
 C;X90;K"-"
 C;X91;K"-"
@@ -3102,7 +3102,7 @@ C;X40;K10
 C;X41;K100
 C;X42;K100
 C;X43;K700
-C;X44;K125
+C;X44;K135
 C;X45;K700
 C;X46;K800
 C;X47;K300
@@ -4313,7 +4313,7 @@ C;X18;K2
 C;X19;K8
 C;X20;K125
 C;X21;K200
-C;X22;K800
+C;X22;K750
 C;X23;K50
 C;X24;K100
 C;X25;K"-"
@@ -4331,7 +4331,7 @@ C;X39;K3
 C;X40;K8
 C;X41;K125
 C;X42;K200
-C;X43;K800
+C;X43;K750
 C;X44;K100
 C;X45;K100
 C;X46;K"-"
@@ -4349,7 +4349,7 @@ C;X60;K4
 C;X61;K8
 C;X62;K125
 C;X63;K200
-C;X64;K800
+C;X64;K750
 C;X65;K150
 C;X66;K100
 C;X67;K"-"
@@ -4367,7 +4367,7 @@ C;X81;K8
 C;X82;K8
 C;X83;K125
 C;X84;K200
-C;X85;K800
+C;X85;K750
 C;X86;K150
 C;X87;K100
 C;X88;K"-"
@@ -5111,7 +5111,7 @@ C;X40;K"-"
 C;X41;K"-"
 C;X42;K900
 C;X43;K"-"
-C;X44;K4
+C;X44;K3.5
 C;X45;K0
 C;X46;K"-"
 C;X47;K"-"
@@ -5129,7 +5129,7 @@ C;X61;K"-"
 C;X62;K"-"
 C;X63;K900
 C;X64;K"-"
-C;X65;K6
+C;X65;K5
 C;X66;K0
 C;X67;K"-"
 C;X68;K"-"
@@ -5263,7 +5263,7 @@ C;X15;K"air,ground,organic,notself,invu,vuln,nonancient"
 C;X16;K0
 C;X17;K0
 C;X18;K0
-C;X19;K5
+C;X19;K5.5
 C;X20;K65
 C;X21;K"-"
 C;X22;K800
@@ -5280,7 +5280,7 @@ C;X36;K"air,ground,organic,notself,invu,vuln,nonancient"
 C;X37;K"-"
 C;X38;K"-"
 C;X39;K"-"
-C;X40;K5
+C;X40;K5.5
 C;X41;K65
 C;X42;K"-"
 C;X43;K800
@@ -5297,7 +5297,7 @@ C;X57;K"air,ground,organic,notself,invu,vuln,nonancient"
 C;X58;K"-"
 C;X59;K"-"
 C;X60;K"-"
-C;X61;K5
+C;X61;K5.5
 C;X62;K65
 C;X63;K"-"
 C;X64;K800
@@ -5314,7 +5314,7 @@ C;X78;K"air,ground,organic,notself,invu,vuln,nonancient"
 C;X79;K"-"
 C;X80;K"-"
 C;X81;K"-"
-C;X82;K5
+C;X82;K5.5
 C;X83;K65
 C;X84;K"-"
 C;X85;K800
@@ -5431,13 +5431,13 @@ C;X17;K5
 C;X18;K5
 C;X19;K10
 C;X20;K75
-C;X21;K125
+C;X21;K60
 C;X22;K375
-C;X23;K65
-C;X24;K480
+C;X23;K80
+C;X24;K600
 C;X25;K375
-C;X26;K300
-C;X27;K7
+C;X26;K175
+C;X27;K10
 C;X28;K"-"
 C;X29;K"-"
 C;X30;K"-"
@@ -5449,13 +5449,13 @@ C;X38;K5
 C;X39;K5
 C;X40;K10
 C;X41;K75
-C;X42;K125
+C;X42;K60
 C;X43;K375
-C;X44;K125
-C;X45;K800
+C;X44;K130
+C;X45;K900
 C;X46;K375
-C;X47;K300
-C;X48;K14
+C;X47;K175
+C;X48;K15
 C;X49;K"-"
 C;X50;K"-"
 C;X51;K"-"
@@ -5467,13 +5467,13 @@ C;X59;K5
 C;X60;K5
 C;X61;K10
 C;X62;K75
-C;X63;K125
+C;X63;K60
 C;X64;K375
-C;X65;K170
+C;X65;K180
 C;X66;K1200
 C;X67;K375
-C;X68;K300
-C;X69;K21
+C;X68;K175
+C;X69;K25
 C;X70;K"-"
 C;X71;K"-"
 C;X72;K"-"
@@ -5485,12 +5485,12 @@ C;X80;K5
 C;X81;K5
 C;X82;K10
 C;X83;K75
-C;X84;K125
+C;X84;K60
 C;X85;K375
 C;X86;K170
 C;X87;K1360
 C;X88;K375
-C;X89;K300
+C;X89;K175
 C;X90;K21
 C;X91;K"-"
 C;X92;K"-"
@@ -5947,7 +5947,7 @@ C;X11;K3
 C;X12;K1
 C;X13;K0
 C;X14;K0
-C;X15;K"ground,enemy,neutral"
+C;X15;K"ground,enemy,neutral,ward"
 C;X16;K0
 C;X17;K0
 C;X18;K0
@@ -5964,7 +5964,7 @@ C;X28;K"-"
 C;X29;K"-"
 C;X30;K"-"
 C;X31;K"-"
-C;X36;K"ground,enemy,neutral"
+C;X36;K"ground,enemy,neutral,ward"
 C;X37;K0
 C;X38;K0
 C;X39;K0
@@ -5981,7 +5981,7 @@ C;X49;K"-"
 C;X50;K"-"
 C;X51;K"-"
 C;X52;K"-"
-C;X57;K"ground,enemy,neutral"
+C;X57;K"ground,enemy,neutral,ward"
 C;X58;K0
 C;X59;K0
 C;X60;K0
@@ -5998,7 +5998,7 @@ C;X70;K"-"
 C;X71;K"-"
 C;X72;K"-"
 C;X73;K"-"
-C;X78;K"ground,enemy,neutral"
+C;X78;K"ground,enemy,neutral,ward"
 C;X79;K0
 C;X80;K0
 C;X81;K0
@@ -6037,7 +6037,7 @@ C;X18;K3
 C;X19;K8
 C;X20;K85
 C;X21;K200
-C;X22;K700
+C;X22;K800
 C;X23;K6
 C;X24;K25
 C;X25;K6
@@ -7967,7 +7967,7 @@ C;X22;K800
 C;X23;K11.25
 C;X24;K0.25
 C;X25;K6
-C;X26;K105
+C;X26;K200
 C;X27;K1
 C;X28;K1.01
 C;X29;K"-"
@@ -7986,7 +7986,7 @@ C;X43;K800
 C;X44;K19.75
 C;X45;K0.25
 C;X46;K12
-C;X47;K195
+C;X47;K250
 C;X48;K1
 C;X49;K1.01
 C;X50;K"-"
@@ -8058,7 +8058,7 @@ C;X22;K800
 C;X23;K11.25
 C;X24;K0.25
 C;X25;K6
-C;X26;K105
+C;X26;K200
 C;X27;K1
 C;X28;K1.01
 C;X29;K"-"
@@ -8077,7 +8077,7 @@ C;X43;K800
 C;X44;K19.75
 C;X45;K0.25
 C;X46;K12
-C;X47;K195
+C;X47;K250
 C;X48;K1
 C;X49;K1.01
 C;X50;K"-"
@@ -8149,7 +8149,7 @@ C;X22;K800
 C;X23;K11.25
 C;X24;K0.25
 C;X25;K6
-C;X26;K105
+C;X26;K200
 C;X27;K1
 C;X28;K1.01
 C;X29;K"-"
@@ -8168,7 +8168,7 @@ C;X43;K800
 C;X44;K19.75
 C;X45;K0.25
 C;X46;K12
-C;X47;K195
+C;X47;K250
 C;X48;K1
 C;X49;K1.01
 C;X50;K"-"
@@ -8240,7 +8240,7 @@ C;X22;K800
 C;X23;K11.25
 C;X24;K0.25
 C;X25;K6
-C;X26;K105
+C;X26;K200
 C;X27;K1
 C;X28;K1.01
 C;X29;K"-"
@@ -8259,7 +8259,7 @@ C;X43;K800
 C;X44;K19.75
 C;X45;K0.25
 C;X46;K12
-C;X47;K195
+C;X47;K250
 C;X48;K1
 C;X49;K1.01
 C;X50;K"-"
@@ -8676,97 +8676,6 @@ C;X19;K35
 C;X20;K125
 C;X21;K"-"
 C;X22;K500
-C;X23;K5
-C;X24;K"ncgb"
-C;X25;K12
-C;X26;K200
-C;X27;K1100
-C;X28;K"-"
-C;X29;K"-"
-C;X30;K"-"
-C;X31;K"-"
-C;X33;K"nfac"
-C;X34;K"BNfy,BNcg"
-C;X36;K"_"
-C;X37;K0
-C;X38;K40
-C;X39;K40
-C;X40;K35
-C;X41;K125
-C;X42;K"-"
-C;X43;K500
-C;X44;K5
-C;X45;K"ncg1"
-C;X46;K12
-C;X47;K200
-C;X48;K1100
-C;X49;K"-"
-C;X50;K"-"
-C;X51;K"-"
-C;X52;K"-"
-C;X54;K"nfa1"
-C;X55;K"BNfy,BNcg"
-C;X57;K"_"
-C;X58;K0
-C;X59;K40
-C;X60;K40
-C;X61;K35
-C;X62;K125
-C;X63;K"-"
-C;X64;K500
-C;X65;K5
-C;X66;K"ncg2"
-C;X67;K12
-C;X68;K200
-C;X69;K1100
-C;X70;K"-"
-C;X71;K"-"
-C;X72;K"-"
-C;X73;K"-"
-C;X75;K"nfa2"
-C;X76;K"BNfy,BNcg"
-C;X78;K"_"
-C;X79;K0
-C;X80;K40
-C;X81;K40
-C;X82;K35
-C;X83;K125
-C;X84;K"-"
-C;X85;K500
-C;X86;K5
-C;X87;K"ncg3"
-C;X88;K12
-C;X89;K200
-C;X90;K1100
-C;X91;K"-"
-C;X92;K"-"
-C;X93;K"-"
-C;X94;K"-"
-C;X96;K"nfa2"
-C;X97;K"BNfy,BNcg"
-C;X99;K1
-C;X1;Y101;K"ANs1"
-C;X2;K"ANsy"
-C;X3;K"Tinkerer - Summon Factory (Level 1)"
-C;X4;K1
-C;X5;K1
-C;X6;K1
-C;X7;K0
-C;X8;K"hero"
-C;X9;K"creeps"
-C;X10;K1
-C;X11;K3
-C;X12;K1
-C;X13;K0
-C;X14;K0
-C;X15;K"_"
-C;X16;K0
-C;X17;K40
-C;X18;K40
-C;X19;K35
-C;X20;K125
-C;X21;K"-"
-C;X22;K500
 C;X23;K4.5
 C;X24;K"ncgb"
 C;X25;K12
@@ -8825,6 +8734,97 @@ C;X83;K125
 C;X84;K"-"
 C;X85;K500
 C;X86;K4.5
+C;X87;K"ncg3"
+C;X88;K12
+C;X89;K200
+C;X90;K1100
+C;X91;K"-"
+C;X92;K"-"
+C;X93;K"-"
+C;X94;K"-"
+C;X96;K"nfa2"
+C;X97;K"BNfy,BNcg"
+C;X99;K1
+C;X1;Y101;K"ANs1"
+C;X2;K"ANsy"
+C;X3;K"Tinkerer - Summon Factory (Level 1)"
+C;X4;K1
+C;X5;K1
+C;X6;K1
+C;X7;K0
+C;X8;K"hero"
+C;X9;K"creeps"
+C;X10;K1
+C;X11;K3
+C;X12;K1
+C;X13;K0
+C;X14;K0
+C;X15;K"_"
+C;X16;K0
+C;X17;K40
+C;X18;K40
+C;X19;K35
+C;X20;K125
+C;X21;K"-"
+C;X22;K500
+C;X23;K4
+C;X24;K"ncgb"
+C;X25;K12
+C;X26;K200
+C;X27;K1100
+C;X28;K"-"
+C;X29;K"-"
+C;X30;K"-"
+C;X31;K"-"
+C;X33;K"nfac"
+C;X34;K"BNfy,BNcg"
+C;X36;K"_"
+C;X37;K0
+C;X38;K40
+C;X39;K40
+C;X40;K35
+C;X41;K125
+C;X42;K"-"
+C;X43;K500
+C;X44;K4
+C;X45;K"ncg1"
+C;X46;K12
+C;X47;K200
+C;X48;K1100
+C;X49;K"-"
+C;X50;K"-"
+C;X51;K"-"
+C;X52;K"-"
+C;X54;K"nfa1"
+C;X55;K"BNfy,BNcg"
+C;X57;K"_"
+C;X58;K0
+C;X59;K40
+C;X60;K40
+C;X61;K35
+C;X62;K125
+C;X63;K"-"
+C;X64;K500
+C;X65;K4
+C;X66;K"ncg2"
+C;X67;K12
+C;X68;K200
+C;X69;K1100
+C;X70;K"-"
+C;X71;K"-"
+C;X72;K"-"
+C;X73;K"-"
+C;X75;K"nfa2"
+C;X76;K"BNfy,BNcg"
+C;X78;K"_"
+C;X79;K0
+C;X80;K40
+C;X81;K40
+C;X82;K35
+C;X83;K125
+C;X84;K"-"
+C;X85;K500
+C;X86;K4
 C;X87;K"ncg3"
 C;X88;K12
 C;X89;K200
@@ -14268,10 +14268,10 @@ C;X13;K0
 C;X14;K0
 C;X15;K"air,ground,dead"
 C;X16;K0
-C;X17;K120
-C;X18;K120
-C;X19;K240
-C;X20;K250
+C;X17;K40
+C;X18;K40
+C;X19;K180
+C;X20;K150
 C;X21;K900
 C;X22;K400
 C;X23;K6
@@ -14444,7 +14444,7 @@ C;X21;K"-"
 C;X22;K500
 C;X23;K0
 C;X24;K0
-C;X25;K420
+C;X25;K300
 C;X26;K0
 C;X27;K"-"
 C;X28;K"-"
@@ -14693,7 +14693,7 @@ C;X19;K0
 C;X20;K0
 C;X21;K900
 C;X22;K"-"
-C;X23;K1
+C;X23;K0.5
 C;X24;K0
 C;X25;K"-"
 C;X26;K"-"
@@ -15450,7 +15450,7 @@ C;X17;K0
 C;X18;K0
 C;X19;K0
 C;X20;K0
-C;X21;K500
+C;X21;K450
 C;X22;K"-"
 C;X23;K0.02
 C;X24;K1
@@ -16031,7 +16031,7 @@ C;X11;K1
 C;X12;K0
 C;X13;K0
 C;X14;K0
-C;X15;K"ground,enemy,neutral,friend,structure,self"
+C;X15;K"ground,enemy,neutral,friend,structure,self,ward"
 C;X16;K0
 C;X17;K2.51
 C;X18;K1.01
@@ -17455,7 +17455,7 @@ C;X12;K0
 C;X13;K0
 C;X14;K0
 C;X15;K"_"
-C;X16;K1
+C;X16;K0.599
 C;X17;K0
 C;X18;K0
 C;X19;K12
@@ -21143,12 +21143,12 @@ C;X14;K0
 C;X15;K"air,ground,enemy,neutral"
 C;X16;K0
 C;X17;K3
-C;X18;K0.75
+C;X18;K1
 C;X19;K0
 C;X20;K5
 C;X21;K"-"
 C;X22;K700
-C;X23;K0.25
+C;X23;K1
 C;X24;K0.25
 C;X25;K"-"
 C;X26;K"-"
@@ -21647,7 +21647,7 @@ C;X15;K"vuln,invu"
 C;X16;K0
 C;X17;K0
 C;X18;K0
-C;X19;K30
+C;X19;K5
 C;X20;K0
 C;X21;K900
 C;X22;K99999
@@ -21731,7 +21731,7 @@ C;X15;K"vuln,invu"
 C;X16;K0
 C;X17;K0
 C;X18;K0
-C;X19;K30
+C;X19;K5
 C;X20;K0
 C;X21;K900
 C;X22;K0
@@ -21899,7 +21899,7 @@ C;X16;K0
 C;X17;K60
 C;X18;K10
 C;X19;K10
-C;X20;K100
+C;X20;K90
 C;X21;K"-"
 C;X22;K600
 C;X23;K0.75
@@ -23069,7 +23069,7 @@ C;X15;K"_"
 C;X16;K0
 C;X17;K0
 C;X18;K0
-C;X19;K30
+C;X19;K5
 C;X20;K0
 C;X21;K-1
 C;X22;K"-"
@@ -23156,12 +23156,12 @@ C;X19;K0
 C;X20;K0
 C;X21;K"-"
 C;X22;K"-"
-C;X23;K0.35
+C;X23;K0.5
 C;X24;K1
 C;X25;K0.3
 C;X26;K0
 C;X27;K1
-C;X28;K30
+C;X28;K25
 C;X29;K0
 C;X30;K1
 C;X31;K0
@@ -25567,12 +25567,12 @@ C;X13;K0
 C;X14;K0
 C;X15;K"ground,enemy,neutral,nonhero,organic"
 C;X16;K0
-C;X17;K10
+C;X17;K6
 C;X18;K3
 C;X19;K8
 C;X20;K75
 C;X21;K"-"
-C;X22;K800
+C;X22;K600
 C;X23;K10
 C;X24;K"-"
 C;X25;K"-"
@@ -25651,12 +25651,12 @@ C;X13;K0
 C;X14;K0
 C;X15;K"ground,enemy,neutral,nonhero,organic"
 C;X16;K0
-C;X17;K10
+C;X17;K6
 C;X18;K3
 C;X19;K8
 C;X20;K75
 C;X21;K"-"
-C;X22;K800
+C;X22;K600
 C;X23;K10
 C;X24;K"-"
 C;X25;K"-"
@@ -28510,7 +28510,7 @@ C;X14;K0
 C;X15;K"air,ground"
 C;X16;K0
 C;X17;K10
-C;X18;K4
+C;X18;K3
 C;X19;K0
 C;X20;K0
 C;X21;K"-"
@@ -28594,7 +28594,7 @@ C;X14;K0
 C;X15;K"air,ground"
 C;X16;K0
 C;X17;K10
-C;X18;K4
+C;X18;K3
 C;X19;K0
 C;X20;K0
 C;X21;K"-"
@@ -28677,8 +28677,8 @@ C;X13;K0
 C;X14;K0
 C;X15;K"ground,enemy,air,neutral,organic"
 C;X16;K0
-C;X17;K4
-C;X18;K4
+C;X17;K2
+C;X18;K2
 C;X19;K8
 C;X20;K125
 C;X21;K200
@@ -29932,7 +29932,7 @@ C;X18;K0
 C;X19;K1.1
 C;X20;K5
 C;X21;K"-"
-C;X22;K250
+C;X22;K350
 C;X23;K25
 C;X24;K"-"
 C;X25;K"-"
@@ -30016,7 +30016,7 @@ C;X18;K0
 C;X19;K1
 C;X20;K5
 C;X21;K"-"
-C;X22;K250
+C;X22;K350
 C;X23;K15
 C;X24;K"-"
 C;X25;K"-"
@@ -30100,7 +30100,7 @@ C;X18;K0
 C;X19;K1
 C;X20;K5
 C;X21;K"-"
-C;X22;K250
+C;X22;K350
 C;X23;K12
 C;X24;K"-"
 C;X25;K"-"
@@ -30184,7 +30184,7 @@ C;X18;K0
 C;X19;K1
 C;X20;K5
 C;X21;K"-"
-C;X22;K250
+C;X22;K350
 C;X23;K25
 C;X24;K"-"
 C;X25;K"-"
@@ -30263,8 +30263,8 @@ C;X13;K0
 C;X14;K0
 C;X15;K"_"
 C;X16;K0
-C;X17;K30
-C;X18;K30
+C;X17;K25
+C;X18;K25
 C;X19;K0
 C;X20;K150
 C;X21;K"-"
@@ -30348,8 +30348,8 @@ C;X13;K0
 C;X14;K0
 C;X15;K"_"
 C;X16;K0
-C;X17;K30
-C;X18;K30
+C;X17;K25
+C;X18;K25
 C;X19;K0
 C;X20;K200
 C;X21;K"-"
@@ -30439,8 +30439,8 @@ C;X19;K9
 C;X20;K90
 C;X21;K500
 C;X22;K700
-C;X23;K215
-C;X24;K4
+C;X23;K130
+C;X24;K3
 C;X25;K0.25
 C;X26;K"-"
 C;X27;K"-"
@@ -30858,7 +30858,7 @@ C;X19;K0
 C;X20;K25
 C;X21;K220
 C;X22;K"-"
-C;X23;K10
+C;X23;K5
 C;X24;K7
 C;X25;K10
 C;X26;K"-"
@@ -31276,7 +31276,7 @@ C;X18;K120
 C;X19;K0
 C;X20;K50
 C;X21;K"-"
-C;X22;K300
+C;X22;K400
 C;X23;K0
 C;X24;K"-"
 C;X25;K"-"
@@ -34421,7 +34421,7 @@ C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
 C;X1;Y408;K"Amgl"
-C;X2;K"Amgl"
+C;X2;K"Aaab"
 C;X3;K"Moon Glaive"
 C;X4;K0
 C;X5;K1
@@ -34504,7 +34504,7 @@ C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
 C;X1;Y409;K"Amgr"
-C;X2;K"Amgl"
+C;X2;K"Aaab"
 C;X3;K"Moon Glaive (No research)"
 C;X4;K0
 C;X5;K1
@@ -35848,7 +35848,7 @@ C;X13;K0
 C;X14;K0
 C;X15;K"air,ground,enemy,organic,neutral,nonhero"
 C;X16;K90
-C;X17;K30
+C;X17;K15
 C;X18;K0
 C;X19;K5
 C;X20;K50
@@ -35933,7 +35933,7 @@ C;X13;K0
 C;X14;K0
 C;X15;K"air,ground,enemy,organic,neutral,nonhero"
 C;X16;K90
-C;X17;K30
+C;X17;K15
 C;X18;K0
 C;X19;K5
 C;X20;K50
@@ -36108,7 +36108,7 @@ C;X19;K0
 C;X20;K0
 C;X21;K220
 C;X22;K"-"
-C;X23;K20
+C;X23;K10
 C;X24;K0
 C;X25;K0
 C;X26;K"-"
@@ -36855,10 +36855,10 @@ C;X13;K0
 C;X14;K0
 C;X15;K"air,ground,nonhero,enemy,organic,neutral"
 C;X16;K0
-C;X17;K25
-C;X18;K25
+C;X17;K20
+C;X18;K20
 C;X19;K10
-C;X20;K220
+C;X20;K200
 C;X21;K"-"
 C;X22;K500
 C;X23;K5
@@ -37187,7 +37187,7 @@ C;X11;K2
 C;X12;K0
 C;X13;K0
 C;X14;K0
-C;X15;K"ground,enemy,neutral"
+C;X15;K"ground,enemy,neutral,ward"
 C;X16;K0
 C;X17;K0
 C;X18;K0
@@ -37204,7 +37204,7 @@ C;X28;K"-"
 C;X29;K"-"
 C;X30;K"-"
 C;X31;K"-"
-C;X36;K"ground,enemy,neutral"
+C;X36;K"ground,enemy,neutral,ward"
 C;X37;K0
 C;X38;K0
 C;X39;K0
@@ -37270,7 +37270,7 @@ C;X11;K1
 C;X12;K0
 C;X13;K0
 C;X14;K0
-C;X15;K"ground,enemy,neutral"
+C;X15;K"ground,enemy,neutral,ward"
 C;X16;K0
 C;X17;K0
 C;X18;K0
@@ -37690,7 +37690,7 @@ C;X12;K0
 C;X13;K0
 C;X14;K0
 C;X15;K"_"
-C;X16;K1
+C;X16;K0.599
 C;X17;K0
 C;X18;K0
 C;X19;K12
@@ -37775,7 +37775,7 @@ C;X12;K0
 C;X13;K0
 C;X14;K0
 C;X15;K"_"
-C;X16;K1
+C;X16;K0.599
 C;X17;K3
 C;X18;K3
 C;X19;K12
@@ -41544,7 +41544,7 @@ C;X23;K100
 C;X24;K900
 C;X25;K400
 C;X26;K1
-C;X27;K300
+C;X27;K120
 C;X28;K"-"
 C;X29;K"-"
 C;X30;K"-"
@@ -42882,7 +42882,7 @@ C;X13;K0
 C;X14;K3
 C;X15;K"air,ground,enemy"
 C;X16;K0
-C;X17;K60
+C;X17;K45
 C;X18;K10
 C;X19;K1
 C;X20;K50
@@ -44547,15 +44547,15 @@ C;X14;K0
 C;X15;K"ground,neutral,enemy"
 C;X16;K0
 C;X17;K150
-C;X18;K2.5
+C;X18;K2
 C;X19;K0
 C;X20;K100
 C;X21;K"-"
 C;X22;K500
 C;X23;K7
 C;X24;K175
-C;X25;K400
-C;X26;K6
+C;X25;K350
+C;X26;K4
 C;X27;K0.5
 C;X28;K"-"
 C;X29;K"-"
@@ -44807,7 +44807,7 @@ C;X22;K"-"
 C;X23;K"nmyr"
 C;X24;K1
 C;X25;K0
-C;X26;K"-"
+C;X26;K#VALUE!
 C;X27;K"-"
 C;X28;K"-"
 C;X29;K"-"
@@ -46531,7 +46531,7 @@ C;X20;K50
 C;X21;K"-"
 C;X22;K500
 C;X23;K0.75
-C;X24;K4
+C;X24;K2
 C;X25;K"-"
 C;X26;K"-"
 C;X27;K"-"
@@ -46615,7 +46615,7 @@ C;X20;K50
 C;X21;K"-"
 C;X22;K500
 C;X23;K0.75
-C;X24;K4
+C;X24;K2
 C;X25;K"-"
 C;X26;K"-"
 C;X27;K"-"
@@ -47612,8 +47612,8 @@ C;X13;K0
 C;X14;K0
 C;X15;K"tree,alive,dead"
 C;X16;K0
-C;X17;K8
-C;X18;K8
+C;X17;K7.5
+C;X18;K7.5
 C;X19;K0
 C;X20;K0
 C;X21;K"-"
@@ -47784,7 +47784,7 @@ C;X19;K0
 C;X20;K0
 C;X21;K"-"
 C;X22;K"-"
-C;X23;K4
+C;X23;K3
 C;X24;K0
 C;X25;K0
 C;X26;K1
@@ -55223,7 +55223,7 @@ C;X28;K"-"
 C;X29;K"-"
 C;X30;K"-"
 C;X31;K"-"
-C;X33;K"ndr1"
+C;X33;K"ndr2"
 C;X34;K"BNba,BNdm"
 C;X36;K"_"
 C;X37;K"-"
@@ -56052,16 +56052,16 @@ C;X19;K0
 C;X20;K0
 C;X21;K"-"
 C;X22;K"-"
-C;X23;K6
-C;X24;K15
-C;X25;K5
-C;X26;K35
+C;X23;K5
+C;X24;K25
+C;X25;K10
+C;X26;K25
 C;X27;K2
 C;X28;K"-"
 C;X29;K"-"
 C;X30;K"-"
 C;X31;K"-"
-C;X33;K"AIos"
+C;X33;K"AIno"
 C;X36;K"_"
 C;X37;K"-"
 C;X38;K"-"
@@ -56219,7 +56219,7 @@ C;X19;K0
 C;X20;K0
 C;X21;K"-"
 C;X22;K"-"
-C;X23;K9
+C;X23;K8
 C;X24;K0
 C;X25;K0
 C;X26;K1
@@ -56630,13 +56630,13 @@ C;X13;K0
 C;X14;K0
 C;X15;K"ground,air,ward"
 C;X16;K0
-C;X17;K60
-C;X18;K20
+C;X17;K10
+C;X18;K5
 C;X19;K0
 C;X20;K0
 C;X21;K"-"
 C;X22;K700
-C;X23;K0.6
+C;X23;K0.55
 C;X24;K0.25
 C;X25;K"-"
 C;X26;K"-"
@@ -60897,8 +60897,8 @@ C;X19;K0
 C;X20;K0
 C;X21;K900
 C;X22;K" - "
-C;X23;K0.05
-C;X24;K0.03
+C;X23;K0.075
+C;X24;K0.035
 C;X25;K" - "
 C;X26;K"-"
 C;X27;K"-"
@@ -60981,8 +60981,8 @@ C;X19;K0
 C;X20;K0
 C;X21;K900
 C;X22;K"-"
-C;X23;K0.05
-C;X24;K0.3
+C;X23;K0.075
+C;X24;K0.35
 C;X25;K0
 C;X26;K"-"
 C;X27;K"-"
@@ -65083,7 +65083,7 @@ C;X21;K"-"
 C;X22;K700
 C;X23;K5
 C;X24;K0
-C;X25;K150
+C;X25;K200
 C;X26;K3
 C;X27;K1
 C;X28;K"-"
@@ -65227,7 +65227,90 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y779;K"AIfg"
+C;X1;Y779;K"AIpw"
+C;X2;K"Aprg"
+C;X3;K"Purge(Wand of Negation)"
+C;X4;K0
+C;X5;K1
+C;X6;K0
+C;X7;K1
+C;X8;K"item"
+C;X9;K"other"
+C;X10;K0
+C;X11;K1
+C;X12;K0
+C;X13;K0
+C;X14;K0
+C;X15;K"air,ground,ward"
+C;X16;K0
+C;X17;K0
+C;X18;K0
+C;X19;K0
+C;X20;K0
+C;X21;K"-"
+C;X22;K500
+C;X23;K0
+C;X24;K0
+C;X25;K200
+C;X26;K0
+C;X27;K0
+C;X28;K"-"
+C;X29;K"-"
+C;X30;K"-"
+C;X31;K"-"
+C;X36;K"_"
+C;X37;K"-"
+C;X38;K"-"
+C;X39;K"-"
+C;X40;K"-"
+C;X41;K"-"
+C;X42;K"-"
+C;X43;K"-"
+C;X44;K"-"
+C;X45;K"-"
+C;X46;K"-"
+C;X47;K"-"
+C;X48;K"-"
+C;X49;K"-"
+C;X50;K"-"
+C;X51;K"-"
+C;X52;K"-"
+C;X57;K"_"
+C;X58;K"-"
+C;X59;K"-"
+C;X60;K"-"
+C;X61;K"-"
+C;X62;K"-"
+C;X63;K"-"
+C;X64;K"-"
+C;X65;K"-"
+C;X66;K"-"
+C;X67;K"-"
+C;X68;K"-"
+C;X69;K"-"
+C;X70;K"-"
+C;X71;K"-"
+C;X72;K"-"
+C;X73;K"-"
+C;X78;K"_"
+C;X79;K"-"
+C;X80;K"-"
+C;X81;K"-"
+C;X82;K"-"
+C;X83;K"-"
+C;X84;K"-"
+C;X85;K"-"
+C;X86;K"-"
+C;X87;K"-"
+C;X88;K"-"
+C;X89;K"-"
+C;X90;K"-"
+C;X91;K"-"
+C;X92;K"-"
+C;X93;K"-"
+C;X94;K"-"
+C;X99;K0
+C;X1;Y780;K"AIfg"
 C;X2;K"Aclf"
 C;X3;K"Cloud of Fog (Item)"
 C;X4;K1
@@ -65312,7 +65395,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y780;K"APrl"
+C;X1;Y781;K"APrl"
 C;X2;K"AHre"
 C;X3;K"Rune of Lesser Resurrection"
 C;X4;K1
@@ -65395,7 +65478,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y781;K"APrr"
+C;X1;Y782;K"APrr"
 C;X2;K"AHre"
 C;X3;K"Rune of Greater Resurrection"
 C;X4;K1
@@ -65478,7 +65561,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y782;K"AIrb"
+C;X1;Y783;K"AIrb"
 C;X2;K"AIrb"
 C;X3;K"Rune of Rebirth"
 C;X4;K1
@@ -65562,7 +65645,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y783;K"Aspp"
+C;X1;Y784;K"Aspp"
 C;X2;K"Aspl"
 C;X3;K"Rune of Spirit Link"
 C;X4;K1
@@ -65646,7 +65729,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y784;K"AUds"
+C;X1;Y785;K"AUds"
 C;X2;K"AUds"
 C;X3;K"Dark Summoning"
 C;X4;K0
@@ -65729,7 +65812,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y785;K"APwt"
+C;X1;Y786;K"APwt"
 C;X2;K"Aeye"
 C;X3;K"Rune of the Watcher"
 C;X4;K1
@@ -65814,7 +65897,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y786;K"AIuf"
+C;X1;Y787;K"AIuf"
 C;X2;K"Auhf"
 C;X3;K"Unholy Frenzy (item)"
 C;X4;K1
@@ -65898,7 +65981,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y787;K"AId0"
+C;X1;Y788;K"AId0"
 C;X2;K"AIde"
 C;X3;K"DefenseBonus (+10)"
 C;X4;K1
@@ -65981,7 +66064,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y788;K"AIcm"
+C;X1;Y789;K"AIcm"
 C;X2;K"Acmg"
 C;X3;K"Control Magic (item)"
 C;X4;K1
@@ -66065,7 +66148,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y789;K"AImz"
+C;X1;Y790;K"AImz"
 C;X2;K"AImm"
 C;X3;K"MaxManaBonus (Leastest)"
 C;X4;K1
@@ -66148,7 +66231,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y790;K"AIfz"
+C;X1;Y791;K"AIfz"
 C;X2;K"ANfd"
 C;X3;K"Finger of Death (item)"
 C;X4;K1
@@ -66231,7 +66314,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y791;K"AIdp"
+C;X1;Y792;K"AIdp"
 C;X2;K"AUdp"
 C;X3;K"Death Pact (item)"
 C;X4;K1
@@ -66314,7 +66397,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y792;K"AImv"
+C;X1;Y793;K"AImv"
 C;X2;K"AImm"
 C;X3;K"MaxManaBonus (Leastest, Really)"
 C;X4;K1
@@ -66397,7 +66480,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y793;K"AIpx"
+C;X1;Y794;K"AIpx"
 C;X2;K"AImi"
 C;X3;K"Permanent Hit point Bonus (small)"
 C;X4;K1
@@ -66480,7 +66563,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y794;K"AIdd"
+C;X1;Y795;K"AIdd"
 C;X2;K"AIdd"
 C;X3;K"Defend (Item)"
 C;X4;K1
@@ -66563,7 +66646,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y795;K"AId8"
+C;X1;Y796;K"AId8"
 C;X2;K"AIde"
 C;X3;K"DefenseBonus (+8)"
 C;X4;K1
@@ -66646,7 +66729,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y796;K"AId7"
+C;X1;Y797;K"AId7"
 C;X2;K"AIde"
 C;X3;K"DefenseBonus (+7)"
 C;X4;K1
@@ -66729,7 +66812,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y797;K"AIlz"
+C;X1;Y798;K"AIlz"
 C;X2;K"AIml"
 C;X3;K"MaxLifeBonus (Leastest)"
 C;X4;K1
@@ -66812,7 +66895,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y798;K"AIhx"
+C;X1;Y799;K"AIhx"
 C;X2;K"AIhe"
 C;X3;K"ItemHeal (Leastest)"
 C;X4;K1
@@ -66895,7 +66978,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y799;K"AIaz"
+C;X1;Y800;K"AIaz"
 C;X2;K"AIab"
 C;X3;K"AgilityBonus (+10)"
 C;X4;K1
@@ -66978,7 +67061,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y800;K"AIrx"
+C;X1;Y801;K"AIrx"
 C;X2;K"AHre"
 C;X3;K"Resurrection - Item"
 C;X4;K1
@@ -67061,7 +67144,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y801;K"AIbx"
+C;X1;Y802;K"AIbx"
 C;X2;K"AHbh"
 C;X3;K"Bash (item)"
 C;X4;K1
@@ -67145,7 +67228,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y802;K"AItx"
+C;X1;Y803;K"AItx"
 C;X2;K"AIat"
 C;X3;K"AttackBonus +20"
 C;X4;K1
@@ -67228,7 +67311,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y803;K"AIwm"
+C;X1;Y804;K"AIwm"
 C;X2;K"ANwm"
 C;X3;K"Watery Minion (item)"
 C;X4;K1
@@ -67313,7 +67396,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y804;K"AIsh"
+C;X1;Y805;K"AIsh"
 C;X2;K"AIsh"
 C;X3;K"Summon Headhunter (item)"
 C;X4;K1
@@ -67398,7 +67481,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y805;K"AI2m"
+C;X1;Y806;K"AI2m"
 C;X2;K"AImm"
 C;X3;K"200 mana bonus"
 C;X4;K1
@@ -67481,7 +67564,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y806;K"AIgx"
+C;X1;Y807;K"AIgx"
 C;X2;K"Aoar"
 C;X3;K"Aura - Regeneration (item)"
 C;X4;K1
@@ -67565,7 +67648,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y807;K"AIhl"
+C;X1;Y808;K"AIhl"
 C;X2;K"AHhb"
 C;X3;K"Holy Light (item)"
 C;X4;K1
@@ -67648,7 +67731,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y808;K"AIsz"
+C;X1;Y809;K"AIsz"
 C;X2;K"Aspo"
 C;X3;K"Slow Poison (item)"
 C;X4;K1
@@ -67732,7 +67815,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y809;K"AIpz"
+C;X1;Y810;K"AIpz"
 C;X2;K"AIha"
 C;X3;K"Penguin Squeek"
 C;X4;K1
@@ -67815,7 +67898,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y810;K"AIfw"
+C;X1;Y811;K"AIfw"
 C;X2;K"AIfb"
 C;X3;K"Searing Blade - fire melee"
 C;X4;K1
@@ -67898,7 +67981,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y811;K"AIft"
+C;X1;Y812;K"AIft"
 C;X2;K"AIob"
 C;X3;K"Frostguard - frost melee"
 C;X4;K1
@@ -67982,7 +68065,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y812;K"AIlx"
+C;X1;Y813;K"AIlx"
 C;X2;K"AIsb"
 C;X3;K"Shaman Claws - lightning melee"
 C;X4;K1
@@ -68066,7 +68149,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y813;K"AIcs"
+C;X1;Y814;K"AIcs"
 C;X2;K"AOcr"
 C;X3;K"Critical Strike (item)"
 C;X4;K1
@@ -68149,7 +68232,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y814;K"AIcl"
+C;X1;Y815;K"AIcl"
 C;X2;K"AOcl"
 C;X3;K"Chain Lightning (item)"
 C;X4;K1
@@ -68232,7 +68315,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y815;K"AIx3"
+C;X1;Y816;K"AIx3"
 C;X2;K"AIab"
 C;X3;K"(All + 3)"
 C;X4;K1
@@ -68315,7 +68398,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y816;K"AIx4"
+C;X1;Y817;K"AIx4"
 C;X2;K"AIab"
 C;X3;K"(All + 4)"
 C;X4;K1
@@ -68398,7 +68481,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y817;K"AIxk"
+C;X1;Y818;K"AIxk"
 C;X2;K"Absk"
 C;X3;K"Beserk (item)"
 C;X4;K1
@@ -68482,7 +68565,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K0
-C;X1;Y818;K"AIdg"
+C;X1;Y819;K"AIdg"
 C;X2;K"AIdg"
 C;X3;K"ItemRitualDagger (Instant)"
 C;X4;K1
@@ -68565,7 +68648,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y819;K"AIg2"
+C;X1;Y820;K"AIg2"
 C;X2;K"AIdg"
 C;X3;K"ItemRitualDagger (Regen)"
 C;X4;K1
@@ -68587,7 +68670,7 @@ C;X19;K5
 C;X20;K0
 C;X21;K450
 C;X22;K400
-C;X23;K175
+C;X23;K200
 C;X24;K1
 C;X25;K0
 C;X26;K0
@@ -68649,7 +68732,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y820;K"AIf2"
+C;X1;Y821;K"AIf2"
 C;X2;K"AIhu"
 C;X3;K"Orb of Fire v2"
 C;X4;K1
@@ -68726,7 +68809,7 @@ C;X89;K"-"
 C;X90;K"-"
 C;X91;K"-"
 C;X99;K1
-C;X1;Y821;K"Ahsb"
+C;X1;Y822;K"Ahsb"
 C;X2;K"Aaab"
 C;X3;K"Sundering Blades"
 C;X4;K1
@@ -68809,7 +68892,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y822;K"APai"
+C;X1;Y823;K"APai"
 C;X2;K"APai"
 C;X3;K"PassiveSimple"
 C;X4;K0
@@ -68892,7 +68975,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y823;K"Ahri"
+C;X1;Y824;K"Ahri"
 C;X2;K"APai"
 C;X3;K"Passive - human rifleman plus range (Rhri)"
 C;X4;K0
@@ -68975,7 +69058,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y824;K"Ahan"
+C;X1;Y825;K"Ahan"
 C;X2;K"APai"
 C;X3;K"Passive - human animal breeding (Rhan)"
 C;X4;K0
@@ -69058,7 +69141,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y825;K"Ahpe"
+C;X1;Y826;K"Ahpe"
 C;X2;K"APai"
 C;X3;K"Passive - phoenix (Fire and Egg)"
 C;X4;K0
@@ -69141,7 +69224,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y826;K"Ahlh"
+C;X1;Y827;K"Ahlh"
 C;X2;K"APai"
 C;X3;K"Passive - human lumber harvesting (Rhlh)"
 C;X4;K0
@@ -69224,7 +69307,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y827;K"Aobs"
+C;X1;Y828;K"Aobs"
 C;X2;K"APai"
 C;X3;K"Passive - orc grunt berserk (Robs)"
 C;X4;K0
@@ -69307,7 +69390,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y828;K"Aobk"
+C;X1;Y829;K"Aobk"
 C;X2;K"APai"
 C;X3;K"Passive - orc berserkers (Robk)"
 C;X4;K0
@@ -69390,7 +69473,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y829;K"Aorb"
+C;X1;Y830;K"Aorb"
 C;X2;K"APai"
 C;X3;K"Passive - orc reinforced defense (Rorb)"
 C;X4;K0
@@ -69473,7 +69556,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y830;K"Aosp"
+C;X1;Y831;K"Aosp"
 C;X2;K"APai"
 C;X3;K"Passive - orc spiked barricade (Rosp)"
 C;X4;K0
@@ -69556,7 +69639,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y831;K"Aoth"
+C;X1;Y832;K"Aoth"
 C;X2;K"APai"
 C;X3;K"Passive - orc Ghost(icon only, orc, Aeth, unused)"
 C;X4;K0
@@ -69639,7 +69722,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y832;K"Aotr"
+C;X1;Y833;K"Aotr"
 C;X2;K"APai"
 C;X3;K"Passive - orc troll regeneration (Rotr)"
 C;X4;K0
@@ -69722,7 +69805,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y833;K"Augf"
+C;X1;Y834;K"Augf"
 C;X2;K"APai"
 C;X3;K"Passive - undead ghoul frenzy (Rugf)"
 C;X4;K0
@@ -69805,7 +69888,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y834;K"Augh"
+C;X1;Y835;K"Augh"
 C;X2;K"APai"
 C;X3;K"Passive - Ghost (icon only, undead, Agho)"
 C;X4;K0
@@ -69888,7 +69971,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y835;K"Ausm"
+C;X1;Y836;K"Ausm"
 C;X2;K"APai"
 C;X3;K"Passive - undead skeletal mastery (Rusm)"
 C;X4;K0
@@ -69971,7 +70054,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y836;K"Aeib"
+C;X1;Y837;K"Aeib"
 C;X2;K"APai"
 C;X3;K"Passive - nightelf improved bows (Reib)"
 C;X4;K0
@@ -70054,7 +70137,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y837;K"Aemk"
+C;X1;Y838;K"Aemk"
 C;X2;K"APai"
 C;X3;K"Passive - nightelf marksmanship (Remk)"
 C;X4;K0
@@ -70137,7 +70220,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y838;K"Aews"
+C;X1;Y839;K"Aews"
 C;X2;K"APai"
 C;X3;K"Passive - nightelf well spring (Rews)"
 C;X4;K0
@@ -70220,7 +70303,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y839;K"AIbd"
+C;X1;Y840;K"AIbd"
 C;X2;K"AIfs"
 C;X3;K"FigurineBlueDrake"
 C;X4;K0
@@ -70304,7 +70387,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y840;K"AIut"
+C;X1;Y841;K"AIut"
 C;X2;K"AIfs"
 C;X3;K"FigurineFurbolgTracker"
 C;X4;K0
@@ -70388,7 +70471,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y841;K"AIes"
+C;X1;Y842;K"AIes"
 C;X2;K"AIfs"
 C;X3;K"FigurineDragonspawnOverseer"
 C;X4;K0
@@ -70472,7 +70555,7 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X99;K1
-C;X1;Y842;K"AIts"
+C;X1;Y843;K"AIts"
 C;X2;K"ANtm"
 C;X3;K"ItemTransmute"
 C;X4;K1
@@ -70559,7 +70642,7 @@ C;X93;K"-"
 C;X94;K"-"
 C;X97;K"BNtm"
 C;X99;K1
-C;X1;Y843;K"Aatp"
+C;X1;Y844;K"Aatp"
 C;X2;K"Aatp"
 C;X3;K"Attack Target Priority"
 C;X4;K0
@@ -70645,5 +70728,263 @@ C;X92;K"-"
 C;X93;K"-"
 C;X94;K"-"
 C;X97;K"Batp"
+C;X99;K1
+C;X1;Y845;K"AIno"
+C;X2;K"Aosl"
+C;X3;K"Slow"
+C;X4;K0
+C;X5;K1
+C;X6;K0
+C;X7;K1
+C;X8;K"item"
+C;X9;K"other"
+C;X10;K1
+C;X11;K1
+C;X12;K0
+C;X13;K0
+C;X14;K0
+C;X15;K"air,ground,enemy"
+C;X16;K0
+C;X17;K10
+C;X18;K5
+C;X19;K0
+C;X20;K0
+C;X21;K"-"
+C;X22;K1000
+C;X23;K0.55
+C;X24;K0.25
+C;X25;K"-"
+C;X26;K"-"
+C;X27;K"-"
+C;X28;K"-"
+C;X29;K"-"
+C;X30;K"-"
+C;X31;K"-"
+C;X34;K"Bson"
+C;X36;K"_"
+C;X37;K"-"
+C;X38;K"-"
+C;X39;K"-"
+C;X40;K"-"
+C;X41;K"-"
+C;X42;K"-"
+C;X43;K"-"
+C;X44;K"-"
+C;X45;K"-"
+C;X46;K"-"
+C;X47;K"-"
+C;X48;K"-"
+C;X49;K"-"
+C;X50;K"-"
+C;X51;K"-"
+C;X52;K"-"
+C;X57;K"_"
+C;X58;K"-"
+C;X59;K"-"
+C;X60;K"-"
+C;X61;K"-"
+C;X62;K"-"
+C;X63;K"-"
+C;X64;K"-"
+C;X65;K"-"
+C;X66;K"-"
+C;X67;K"-"
+C;X68;K"-"
+C;X69;K"-"
+C;X70;K"-"
+C;X71;K"-"
+C;X72;K"-"
+C;X73;K"-"
+C;X78;K"_"
+C;X79;K"-"
+C;X80;K"-"
+C;X81;K"-"
+C;X82;K"-"
+C;X83;K"-"
+C;X84;K"-"
+C;X85;K"-"
+C;X86;K"-"
+C;X87;K"-"
+C;X88;K"-"
+C;X89;K"-"
+C;X90;K"-"
+C;X91;K"-"
+C;X92;K"-"
+C;X93;K"-"
+C;X94;K"-"
+C;X99;K1
+C;X1;Y846;K"Amgi"
+C;X2;K"Amgi"
+C;X3;K"Bouncing Missile Filter"
+C;X4;K0
+C;X5;K1
+C;X6;K0
+C;X7;K0
+C;X8;K"unit"
+C;X9;K"nightelf"
+C;X10;K1
+C;X11;K1
+C;X12;K0
+C;X13;K0
+C;X14;K0
+C;X15;K"structure"
+C;X16;K0
+C;X17;K0
+C;X18;K0
+C;X19;K0
+C;X20;K0
+C;X21;K"-"
+C;X22;K"-"
+C;X23;K"-"
+C;X24;K"-"
+C;X25;K"-"
+C;X26;K"-"
+C;X27;K"-"
+C;X28;K"-"
+C;X29;K"-"
+C;X30;K"-"
+C;X31;K"-"
+C;X36;K"_"
+C;X37;K"-"
+C;X38;K"-"
+C;X39;K"-"
+C;X40;K"-"
+C;X41;K"-"
+C;X42;K"-"
+C;X43;K"-"
+C;X44;K"-"
+C;X45;K"-"
+C;X46;K"-"
+C;X47;K"-"
+C;X48;K"-"
+C;X49;K"-"
+C;X50;K"-"
+C;X51;K"-"
+C;X52;K"-"
+C;X57;K"_"
+C;X58;K"-"
+C;X59;K"-"
+C;X60;K"-"
+C;X61;K"-"
+C;X62;K"-"
+C;X63;K"-"
+C;X64;K"-"
+C;X65;K"-"
+C;X66;K"-"
+C;X67;K"-"
+C;X68;K"-"
+C;X69;K"-"
+C;X70;K"-"
+C;X71;K"-"
+C;X72;K"-"
+C;X73;K"-"
+C;X78;K"_"
+C;X79;K"-"
+C;X80;K"-"
+C;X81;K"-"
+C;X82;K"-"
+C;X83;K"-"
+C;X84;K"-"
+C;X85;K"-"
+C;X86;K"-"
+C;X87;K"-"
+C;X88;K"-"
+C;X89;K"-"
+C;X90;K"-"
+C;X91;K"-"
+C;X92;K"-"
+C;X93;K"-"
+C;X94;K"-"
+C;X99;K1
+C;X1;Y847;K"AUa2"
+C;X2;K"AUa2"
+C;X3;K"Death Knight - Animate Dead"
+C;X4;K0
+C;X5;K1
+C;X6;K1
+C;X7;K0
+C;X8;K"hero"
+C;X9;K"undead"
+C;X10;K1
+C;X11;K1
+C;X12;K6
+C;X13;K0
+C;X14;K0
+C;X15;K"air,ground,dead"
+C;X16;K0
+C;X17;K40
+C;X18;K40
+C;X19;K180
+C;X20;K125
+C;X21;K900
+C;X22;K400
+C;X23;K6
+C;X24;K0
+C;X25;K1
+C;X26;K"-"
+C;X27;K"-"
+C;X28;K"-"
+C;X29;K"-"
+C;X30;K"-"
+C;X31;K"-"
+C;X34;K"BUan"
+C;X35;K"Aap5"
+C;X36;K"air,ground,dead"
+C;X37;K"-"
+C;X38;K120
+C;X39;K120
+C;X40;K240
+C;X41;K125
+C;X42;K900
+C;X43;K400
+C;X44;K6
+C;X45;K0
+C;X46;K0
+C;X47;K"-"
+C;X48;K"-"
+C;X49;K"-"
+C;X50;K"-"
+C;X51;K"-"
+C;X52;K"-"
+C;X55;K"BUan"
+C;X56;K"Aap5"
+C;X57;K"air,ground,dead"
+C;X58;K"-"
+C;X59;K120
+C;X60;K120
+C;X61;K240
+C;X62;K125
+C;X63;K900
+C;X64;K400
+C;X65;K6
+C;X66;K0
+C;X67;K0
+C;X68;K"-"
+C;X69;K"-"
+C;X70;K"-"
+C;X71;K"-"
+C;X72;K"-"
+C;X73;K"-"
+C;X76;K"BUan"
+C;X77;K"Aap5"
+C;X78;K"air,ground,dead"
+C;X79;K"-"
+C;X80;K120
+C;X81;K120
+C;X82;K240
+C;X83;K125
+C;X84;K900
+C;X85;K400
+C;X86;K6
+C;X87;K0
+C;X88;K0
+C;X89;K"-"
+C;X90;K"-"
+C;X91;K"-"
+C;X92;K"-"
+C;X93;K"-"
+C;X94;K"-"
+C;X97;K"BUan"
+C;X98;K"Aap5"
 C;X99;K1
 E
