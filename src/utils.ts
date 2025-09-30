@@ -3,7 +3,14 @@ import War3MapW3u from "mdx-m3-viewer-th/dist/cjs/parsers/w3x/w3u/file";
 import Modification from "mdx-m3-viewer-th/dist/cjs/parsers/w3x/w3u/modification";
 import ModifiedObject from "mdx-m3-viewer-th/dist/cjs/parsers/w3x/w3u/modifiedobject";
 import { randomInRange } from "mdx-m3-viewer-th/dist/cjs/common/math";
-
+export interface Prop {
+  id: string;
+  name: string;
+  type: string;
+  levelDependant?: boolean;
+  dataPointer?: number;
+  netsafe: string;
+}
 export function war3ToTS(
   war3Type: string,
   war3Value: string | number | undefined
@@ -110,10 +117,12 @@ export function war3ToDefaultTS(war3Type: string): string | number | boolean {
 }
 
 export function tsToWar3(
-  id: string,
-  war3Type: string,
+  prop: Prop,
   tsValue: string | number | boolean
 ): Modification {
+  const { id } = prop
+  const war3Type = prop.type
+  const levelDependant = prop.levelDependant;
   let variableType = 0;
   let value: string | number;
 
@@ -159,6 +168,9 @@ export function tsToWar3(
 
   modification.id = id;
   modification.variableType = variableType;
+  if(levelDependant) {
+      modification.levelOrVariation = 1
+  }
   modification.value = value;
 
   return modification;
